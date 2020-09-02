@@ -250,14 +250,14 @@ header .menu-toggle{
     position: relative;
 }
 .how-we-do .home-products .home-product h4{ 
-    padding: 10px;
+    padding: 5px 10px;
     font-size: 20px;
-    border-bottom: 1px solid #3DA935;
+
     max-width: 95%;
     margin: 0 auto;
-    background: #ffffff;
-    margin-top: -10px;
-    border-top: 1px solid #3DA935;
+
+
+
 }
 .how-we-do .home-products .home-product .hover-img{
     position: absolute;
