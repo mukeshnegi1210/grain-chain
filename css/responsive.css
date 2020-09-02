@@ -318,6 +318,7 @@ header .menu-toggle {
     border: 1px solid #cccccc;
     border-radius: 5px;
     padding-left: 5px;
+    font-size: 16px;
 }
 
 .home-contact .form-wrapper .form-left {
@@ -357,6 +358,7 @@ header .menu-toggle {
     border-radius: 5px;
     padding-left: 5px;
     max-height: 200px;
+    font-size: 16px;
 }
 
 .home-contact .form-wrapper .form-right .action {
