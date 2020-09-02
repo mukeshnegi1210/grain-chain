@@ -71,7 +71,7 @@ h2.title + p{
 
 .btn-primary:hover {
     color: #3DA935;
-    border-color: #ffffff;
+    border-color: #3DA935;
     background-color: #ffffff;
 }
 
@@ -111,11 +111,25 @@ header .menu-toggle{
 
 .primary-menu ul li a {
     color: #ffffff;
+    position: relative;
+    text-decoration: none !important;
 }
+.primary-menu ul li a:after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    width: 0px;
+    height: 3px;
+    background: #ffffff;
+    transition: all 300ms ease-in;
+}
+    
 
-.primary-menu ul li a:hover {
-    font-weight: 600;
-    text-decoration: none;
+.primary-menu ul li a:hover:after{
+  
+    width: 100%;
+  
 }
 
 .banner {
@@ -137,6 +151,11 @@ header .menu-toggle{
     background-color: transparent;
     color: #ffffff;
     border-color: #ffffff;
+}
+.banner-item .btn:hover{
+    background-color: #ffffff;
+    border-color: #ffffff;
+    color: #3DA935;
 }
 
 .banner .banner-title {
@@ -227,6 +246,27 @@ header .menu-toggle{
 .how-we-do .home-products {
     margin-top: 50px;
 }
+.how-we-do .home-products .home-product {
+    position: relative;
+}
+.how-we-do .home-products .home-product h4{ 
+    padding: 10px;
+    font-size: 20px;
+    border-bottom: 1px solid #3DA935;
+    max-width: 95%;
+    margin: 0 auto;
+    background: #ffffff;
+    margin-top: -10px;
+    border-top: 1px solid #3DA935;
+}
+.how-we-do .home-products .home-product .hover-img{
+    position: absolute;
+    top: 0;
+    left: 0;
+width: 100%;
+height: 100%;
+}
+
 
 .how-does-it-works {
     background: url('../images/phone-parallax-bg-Home-Desktop-Website-GC.png') no-repeat center;
@@ -255,6 +295,9 @@ header .menu-toggle{
     position: relative;
     top: 100px;
 }
+.how-does-it-works .bottom h2.title span:after{
+    background: #1c7808;
+}
 
 .how-does-it-works .bottom p {
     margin-bottom: 20px;
@@ -268,6 +311,12 @@ header .menu-toggle{
     background-color: transparent;
     color: #ffffff;
     border-color: #ffffff;
+}
+.how-does-it-works .bottom .btn:hover{
+
+    background-color: #ffffff;
+    border-color: #ffffff;
+    color: #3DA935;
 }
 
 .how-does-it-works .work-process {
@@ -538,4 +587,7 @@ footer .social-media ul {
 
 footer .social-media ul li {
     margin-right: 10px;
+}
+footer .social-media ul li:hover img{
+    transform: scale(1.1);
 }
