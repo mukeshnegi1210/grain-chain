@@ -1,11 +1,13 @@
 /* fonts */
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
 
 /* General CSS */
-*{
+
+* {
     transition: all 200ms ease-in;
 }
+
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
@@ -30,12 +32,13 @@ h6 {
 }
 
 h1 {
-    font-size: 55px;
-    margin-bottom: 30px;
+    font-size: 60px;
+    margin-bottom: 40px;
 }
 
 h2 {
     font-size: 30px;
+    font-weight: normal;
 }
 
 h2.title {
@@ -57,10 +60,15 @@ h2.title span:after {
     height: 100%;
     background: #3DA935;
 }
-h2.title + p{
+
+h2.title+p {
     font-weight: 600;
     max-width: 80%;
-    margin:0 auto;
+    margin: 0 auto;
+}
+
+.btn {
+    border-radius: 10px;
 }
 
 .btn-primary {
@@ -96,9 +104,11 @@ header .header-inner .logo {
     max-width: 150px;
     display: inline-block;
 }
-header .menu-toggle{
+
+header .menu-toggle {
     display: none;
 }
+
 .primary-menu ul {
     display: flex;
     list-style-type: none;
@@ -113,8 +123,11 @@ header .menu-toggle{
     color: #ffffff;
     position: relative;
     text-decoration: none !important;
+    font-weight: 600;
+    font-size: 16px;
 }
-.primary-menu ul li a:after{
+
+.primary-menu ul li a:after {
     content: "";
     position: absolute;
     left: 0;
@@ -124,12 +137,9 @@ header .menu-toggle{
     background: #ffffff;
     transition: all 300ms ease-in;
 }
-    
 
-.primary-menu ul li a:hover:after{
-  
+.primary-menu ul li a:hover:after {
     width: 100%;
-  
 }
 
 .banner {
@@ -139,6 +149,10 @@ header .menu-toggle{
     padding-top: 150px;
     max-height: 690px;
     background-color: #f4f4f4;
+}
+
+.banner-item-list {
+    position: relative;
 }
 
 .banner-item {
@@ -151,8 +165,14 @@ header .menu-toggle{
     background-color: transparent;
     color: #ffffff;
     border-color: #ffffff;
+    padding: 5px 25px;
 }
-.banner-item .btn:hover{
+
+.banner-item .btn {
+    font-weight: 600;
+}
+
+.banner-item .btn:hover {
     background-color: #ffffff;
     border-color: #ffffff;
     color: #3DA935;
@@ -165,11 +185,26 @@ header .menu-toggle{
     max-width: 1000px;
 }
 
+.banner .owl-theme .owl-nav {
+    margin-top: 10px;
+    position: absolute;
+    top: calc(50% - 150px);
+    transform: translateY(-50%);
+color: #ffffff;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size:65px;
+}
+.banner .owl-theme .owl-nav button:focus{
+    outline: none;
+}
+.banner .owl-theme .owl-nav button:hover{
+    background: transparent;
+    transform: scale(1.1);
+}
 .what-we-do {
-    text-align: center;
     background-color: #f4f4f4;
-    /* background: url('../images/Texture-right-Home-Desktop-Website-GC.png') no-repeat;
-    background-position: right bottom; */
 }
 
 .what-we-do .what-we-do-content {
@@ -178,7 +213,6 @@ header .menu-toggle{
     position: relative;
     background: #ffffff;
     border-radius: 15px;
-    /* border: 1px solid #c8c8c8; */
     background: #ffffff;
     padding: 50px;
     position: relative;
@@ -198,9 +232,10 @@ header .menu-toggle{
     cursor: pointer;
 }
 
-.what-we-do-content .btn-play:hover img{
-    transform:scale(1.1);
+.what-we-do-content .btn-play:hover img {
+    transform: scale(1.1);
 }
+
 .what-we-do-content .btn-play:focus {
     outline: none
 }
@@ -216,20 +251,34 @@ header .menu-toggle{
 
 .how-we-do {
     position: relative;
+    background-color: #f4f4f4;
+}
+
+.how-we-do-inner {
     background-color: #ececec;
-    padding: 250px 0;
-  
+    margin-top: -50px;
+    padding-bottom: 250px;
+    position: relative;
+}
+
+.how-we-do h2 {
+    font-weight: 700;
+}
+
+.how-we-do>img {
+    position: relative;
 }
 
 .how-we-do::before {
     content: "";
     position: absolute;
-    top: 0;
-    left: 0;
+    top: -80px;
+    right: 0;
     width: 100%;
-    height: 200px;
-    background: #f4f4f4 url(../images/grey-bg-begining-Home-Desktop-Website-GC.png) no-repeat;
-    background-size: cover;
+    height: 300px;
+    background: url(../images/Texture-right-Home-Desktop-Website-GC.png) no-repeat;
+    background-size: 275px auto;
+    background-position: right top;
 }
 
 .how-we-do::after {
@@ -246,27 +295,77 @@ header .menu-toggle{
 .how-we-do .home-products {
     margin-top: 50px;
 }
+
 .how-we-do .home-products .home-product {
     position: relative;
+    border-radius: 10px;
+    overflow: hidden;
 }
-.how-we-do .home-products .home-product h4{ 
-    padding: 5px 10px;
-    font-size: 20px;
 
-    max-width: 95%;
-    margin: 0 auto;
-
-
-
-}
-.how-we-do .home-products .home-product .hover-img{
+.how-we-do .home-products .home-product .hover {
+    visibility: hidden;
+    opacity: 0;
     position: absolute;
     top: 0;
     left: 0;
-width: 100%;
-height: 100%;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
 }
 
+.how-we-do .home-products .home-product:hover .hover {
+    visibility: visible;
+    opacity: 1;
+}
+
+.how-we-do .home-products .home-product.yellow .hover {
+    background: rgb(248 186 19 / .8)
+}
+
+.how-we-do .home-products .home-product.green .hover {
+    background: rgb(128 205 4 / .8);
+}
+
+.how-we-do .home-products .home-product.blue .hover {
+    background: rgb(0 88 217 / .7);
+}
+
+.how-we-do .home-products .home-product.red .hover {
+    background: rgb(223 74 30 / .8);
+}
+
+.how-we-do .home-products .home-product h4 {
+    font-size: 16px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.how-we-do .home-product .product-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+    padding: 20px;
+}
+
+.how-we-do .home-product .product-bottom img {
+    max-width: 200px;
+    margin-bottom: 5px;
+}
+
+.how-we-do .home-product.red .product-bottom img,
+.how-we-do .home-product.blue .product-bottom img {
+    max-width: 130px;
+}
+
+.how-we-do .home-products .home-product .hover-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
 
 .how-does-it-works {
     background: url('../images/phone-parallax-bg-Home-Desktop-Website-GC.png') no-repeat center;
@@ -277,7 +376,7 @@ height: 100%;
 }
 
 .how-does-it-works .how-does-it-works-content {
-    max-width: 1000px;
+    max-width: 1100px;
     margin: 0 auto;
 }
 
@@ -285,18 +384,37 @@ height: 100%;
     position: relative;
     z-index: 9;
     top: -150px;
+    background: #ffffff;
+    padding: 40px 25px 0 25px;
+    border-radius: 5px;
+    box-shadow:0 0 5px rgba(0,0,0,.1);
 }
 
 .how-does-it-works .bottom {
-    background-color: rgba(61, 169, 53, 0.9);
+    background-color: rgba(61, 169, 53, .95);
     color: #ffffff;
     padding: 30px;
     border-radius: 15px;
     position: relative;
     top: 100px;
 }
-.how-does-it-works .bottom h2.title span:after{
-    background: #1c7808;
+
+.how-does-it-works .bottom h2 {
+    font-weight: 700;
+    text-align: left;
+}
+
+.how-does-it-works .bottom h2.title span {
+    padding-bottom: 20px;
+}
+
+.how-does-it-works .bottom h2.title span:after {
+    background: #76b72a;
+    left: 0%;
+    bottom: 0;
+    width: 50px;
+    height: 4px;
+    top: auto;
 }
 
 .how-does-it-works .bottom p {
@@ -312,8 +430,8 @@ height: 100%;
     color: #ffffff;
     border-color: #ffffff;
 }
-.how-does-it-works .bottom .btn:hover{
 
+.how-does-it-works .bottom .btn:hover {
     background-color: #ffffff;
     border-color: #ffffff;
     color: #3DA935;
@@ -353,6 +471,7 @@ height: 100%;
 
 .our-partners .title-wrapper .title {
     margin-bottom: 0;
+    font-weight: 700;
 }
 
 .our-partners .title-wrapper .title span {
@@ -484,6 +603,10 @@ height: 100%;
     text-align: left;
 }
 
+.home-contact .form-wrapper .form-left .title {
+    font-weight: 700;
+}
+
 .home-contact .form-wrapper .form-left .title span {
     padding-bottom: 15px;
 }
@@ -513,9 +636,11 @@ height: 100%;
 .home-contact .form-wrapper .form-right .form-control:focus {
     outline: none;
 }
-.home-contact .form-wrapper .form-right .captcha{
+
+.home-contact .form-wrapper .form-right .captcha {
     display: none;
 }
+
 .home-contact .form-wrapper .form-right .btn {
     text-transform: uppercase;
     font-size: 20px;
@@ -588,6 +713,7 @@ footer .social-media ul {
 footer .social-media ul li {
     margin-right: 10px;
 }
-footer .social-media ul li:hover img{
+
+footer .social-media ul li:hover img {
     transform: scale(1.1);
 }
