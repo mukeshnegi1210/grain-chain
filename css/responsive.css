@@ -4,7 +4,7 @@
 
 /* General CSS */
 
-@media(max-width:1199) {
+@media(max-width:1199px) {
     .how-we-do-inner {
         margin-top: 0;
     }
