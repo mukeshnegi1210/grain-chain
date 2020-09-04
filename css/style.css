@@ -908,7 +908,18 @@ footer .social-media ul li:hover img {
     background: #ffffff;
     position: relative;
 }
+.how-does-it-works-2:after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 125px;
+    background: url(../images/Texture-right-Home-Desktop-Website-GC.png) no-repeat;
+    background-position: right top;
+    background-size: 225px auto;
 
+}
 .how-does-it-works-2 h2.title.text-left span {
     padding-bottom: 0;
 }
