@@ -223,7 +223,7 @@ header .menu-toggle {
 
 .banner {
     min-height: 500px;
-    background: url('../images/banner.png') no-repeat center;
+    background: url('../images/banner.png') no-repeat bottom;
     background-size: cover;
     padding-top: 150px;
     max-height: 690px;
@@ -323,21 +323,49 @@ header .menu-toggle {
     transform: translateY(-50%);
     padding: 0;
     cursor: pointer;
+    background: #3daa35;
+    width: 57px;
+    height: 57px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 57px;
+    animation: pulse 2000ms linear infinite;
+    -webkit-animation: pulse 2000ms linear infinite;
+    -moz-animation: pulse 2000ms linear infinite;
 }
 
-.what-we-do-content .btn-play:hover img {
-    -webkit-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    transform: scale(1.1);
+.what-we-do-content .btn-play:after,
+.what-we-do-content .btn-play:before {
+    display: inline-block;
+    margin: auto;
+    position: absolute;
+    content: "";
+    width: 57px;
+    height: 57px;
+    border-radius: 100px;
+    top: 0;
+    left: 0;
+    background-color: #3daa35;
+}
+.what-we-do-content .btn-play:before {
+    z-index: -200;
+    -webkit-animation: inner-ripple 2000ms linear infinite;
+    -moz-animation: inner-ripple 2000ms linear infinite;
+    animation: inner-ripple 2000ms linear infinite;
+}
+.what-we-do-content .btn-play:after {
+    z-index: -100;
+    -webkit-animation: outer-ripple 2000ms linear infinite;
+    -moz-animation: outer-ripple 2000ms linear infinite;
+    animation: outer-ripple 2000ms linear infinite;
+}
+.what-we-do-content .btn-play img {
+    width: 25px;
+    height: 25px;
 }
 
 .what-we-do-content .btn-play:focus {
     outline: none
-}
-
-.what-we-do-content .btn-play img {
-    width: 75px;
-    height: 75px;
 }
 
 .what-we-do .what-we-do-content p {
@@ -384,7 +412,7 @@ header .menu-toggle {
     width: 100%;
     height: 200px;
     background: url(../images/grey-bg-end-Home-Desktop-Website-GC.png) no-repeat;
-    background-size: cover;
+    background-size: 100% auto;
 }
 
 .how-we-do .home-products {
@@ -908,7 +936,8 @@ footer .social-media ul li:hover img {
     background: #ffffff;
     position: relative;
 }
-.how-does-it-works-2:after{
+
+.how-does-it-works-2:after {
     content: "";
     position: absolute;
     bottom: 0;
@@ -918,8 +947,8 @@ footer .social-media ul li:hover img {
     background: url(../images/Texture-right-Home-Desktop-Website-GC.png) no-repeat;
     background-position: right top;
     background-size: 225px auto;
-
 }
+
 .how-does-it-works-2 h2.title.text-left span {
     padding-bottom: 0;
 }
@@ -947,7 +976,8 @@ footer .social-media ul li:hover img {
 .problem {
     padding: 70px 0;
 }
-.problem .problem-inner{
+
+.problem .problem-inner {
     position: relative;
     z-index: 2;
 }
@@ -1005,8 +1035,7 @@ footer .social-media ul li:hover img {
     transition: all 300ms ease;
 }
 
-
-.problem .problem-box:hover .overlay{
+.problem .problem-box:hover .overlay {
     visibility: visible;
     opacity: 1;
 }
@@ -1108,3 +1137,187 @@ footer .social-media ul li:hover img {
     height: 50px;
     width: 50px;
 }
+
+
+
+
+
+@keyframes outer-ripple {
+    0% {
+      transform: scale(1);
+      filter: alpha(opacity=50);
+      opacity: 0.5;
+    }
+    80% {
+      transform: scale(3.5);
+      filter: alpha(opacity=0);
+      opacity: 0;
+    }
+    100% {
+      transform: scale(3.5);
+      filter: alpha(opacity=0);
+      opacity: 0;
+    }
+  }
+  
+  @-webkit-keyframes outer-ripple {
+    0% {
+      transform: scale(1);
+      filter: alpha(opacity=50);
+      opacity: 0.5;
+    }
+    80% {
+      transform: scale(3.5);
+      filter: alpha(opacity=0);
+      opacity: 0;
+    }
+    100% {
+      transform: scale(3.5);
+      filter: alpha(opacity=0);
+      opacity: 0;
+    }
+  }
+  
+  @-moz-keyframes outer-ripple {
+    0% {
+      transform: scale(1);
+      filter: alpha(opacity=50);
+      opacity: 0.5;
+    }
+    80% {
+      transform: scale(3.5);
+      filter: alpha(opacity=0);
+      opacity: 0;
+    }
+    100% {
+      transform: scale(3.5);
+      filter: alpha(opacity=0);
+      opacity: 0;
+    }
+  }
+  /* inner ripple */
+  
+  @keyframes inner-ripple {
+    0% {
+      transform: scale(1);
+      filter: alpha(opacity=50);
+      opacity: 0.5;
+    }
+    30% {
+      transform: scale(1);
+      filter: alpha(opacity=50);
+      opacity: 0.5;
+    }
+    100% {
+      transform: scale(2.5);
+      filter: alpha(opacity=0);
+      opacity: 0;
+    }
+  }
+  
+  @-webkit-keyframes inner-ripple {
+    0% {
+      transform: scale(1);
+      filter: alpha(opacity=50);
+      opacity: 0.5;
+    }
+    30% {
+      transform: scale(1);
+      filter: alpha(opacity=50);
+      opacity: 0.5;
+    }
+    100% {
+      transform: scale(2.5);
+      filter: alpha(opacity=0);
+      opacity: 0;
+    }
+  }
+  
+  @-moz-keyframes inner-ripple {
+    0% {
+      transform: scale(1);
+      filter: alpha(opacity=50);
+      opacity: 0.5;
+    }
+    30% {
+      transform: scale(1);
+      filter: alpha(opacity=50);
+      opacity: 0.5;
+    }
+    100% {
+      transform: scale(2.5);
+      filter: alpha(opacity=0);
+      opacity: 0;
+    }
+  }
+  
+@keyframes pulse{
+    0% {
+      transform: scale(0.8);
+      filter: alpha(opacity=50);
+      opacity: 0.5;
+    }
+    10% {
+      transform: scale(1.1);
+      filter: alpha(opacity=1);
+      opacity: 1;
+    }
+    20% {
+      transform: scale(0.9);
+      filter: alpha(opacity=1);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(0.8);
+      filter: alpha(opacity=50);
+      opacity: 0.5;
+    }
+  }
+  
+  @-moz-keyframes pulse{
+    0% {
+      transform: scale(0.8);
+      filter: alpha(opacity=50);
+      opacity: 0.5;
+    }
+    10% {
+      transform: scale(1.1);
+      filter: alpha(opacity=1);
+      opacity: 1;
+    }
+    20% {
+      transform: scale(0.9);
+      filter: alpha(opacity=1);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(0.8);
+      filter: alpha(opacity=50);
+      opacity: 0.5;
+    }
+  }
+  
+  @-webkit-keyframes pulse{
+    0% {
+      transform: scale(0.8);
+      filter: alpha(opacity=50);
+      opacity: 0.5;
+    }
+    10% {
+      transform: scale(1.1);
+      filter: alpha(opacity=1);
+      opacity: 1;
+    }
+    20% {
+      transform: scale(0.9);
+      filter: alpha(opacity=1);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(0.8);
+      filter: alpha(opacity=50);
+      opacity: 0.5;
+    }
+  }
+  
+  

@@ -4,6 +4,9 @@
     .how-we-do-inner {
         margin-top: 0;
     }
+    .how-we-do .home-product .product-bottom img{
+        max-width: 100%;
+    }
 }
 
 @media(max-width:991px) {
@@ -12,6 +15,9 @@
     }
     .solutions-inner .solution-box img:nth-child(1){
      width: 100%;
+    }
+    .how-we-do::after{
+        bottom: -135px;
     }
 }
 
@@ -157,7 +163,7 @@
         position: absolute;
         top: auto;
         bottom: -37px;
-        left: 50%;
+        left: calc(50% - 29px);
         -webkit-transform: translateX(-50%);
         -ms-transform: translateX(-50%);
         transform: translateX(-50%);
