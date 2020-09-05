@@ -9,15 +9,21 @@ $(function () {
         responsive: {
             0: {
                 items: 2,
-                center: true
-
+                center: true,
+                autoplay:true,
+                autoplayTimeout:1500,
+                nav:false
             },
             767: {
-                items: 3
-
+                items: 3,
+                nav:false
             },
             1023: {
-                items: 5
+                items: 5,
+                nav:true
+            },
+            1200:{
+                nav:false
             }
         }
     });
@@ -58,6 +64,10 @@ $(function () {
             },
         }
     });
+
+    // wow initiate
+    new WOW().init();
+
 
     // menu mobile
     $('.menu-open').click(function () {
