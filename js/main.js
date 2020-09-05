@@ -18,12 +18,9 @@ $(function () {
                 items: 3,
                 nav:false
             },
-            1023: {
-                items: 5,
-                nav:true
-            },
+          
             1200:{
-                nav:false
+                items: 5
             }
         }
     });
