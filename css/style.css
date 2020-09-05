@@ -583,8 +583,21 @@ header .menu-toggle {
 
 .how-does-it-works .work-process-list {
     margin-top: 30px;
+    position: relative;
 }
 
+.how-does-it-works .work-process-list .owl-nav{
+    width: 100%;
+       display: flex;
+    justify-content: space-between;
+    font-size: 40px;
+    margin:0 auto;
+    color: #3ca935;
+    position: absolute;
+    top: 50%;
+    transform:translateY(-50%);
+    font-size:70px;
+}
 .our-partners {
     padding-top: 150px;
 }
@@ -630,7 +643,15 @@ header .menu-toggle {
 .our-partners .partners-list {
     margin: 40px 0;
 }
-
+.our-partners .partners-list .owl-nav{
+    width: 100%;
+    max-width: 150px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 40px;
+    margin:0 auto;
+    color: #3ca935;
+}
 .company-stats {
     background: url(../images/stats-banner.png) no-repeat center;
     background-size: cover;
@@ -1323,4 +1344,9 @@ footer .social-media ul li:hover img {
     }
   }
   
-  
+  .owl-theme .owl-nav button:hover,.owl-theme .owl-nav button:focus{
+      outline: none;
+      background:transparent;
+      color: inherit !important;
+      background-color:  transparent !important;
+  }
