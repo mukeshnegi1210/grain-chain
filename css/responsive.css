@@ -4,8 +4,14 @@
     .how-we-do-inner {
         margin-top: 0;
     }
-    .how-we-do .home-product .product-bottom img{
+    .how-we-do .home-product .product-bottom img {
         max-width: 100%;
+    }
+    .how-does-it-works .work-process {
+        display: block;
+    }
+    .how-does-it-works .top {
+        display: none;
     }
 }
 
@@ -13,10 +19,10 @@
     .how-we-do-inner {
         padding-top: 100px;
     }
-    .solutions-inner .solution-box img:nth-child(1){
-     width: 100%;
+    .solutions-inner .solution-box img:nth-child(1) {
+        width: 100%;
     }
-    .how-we-do::after{
+    .how-we-do::after {
         bottom: -135px;
     }
 }
@@ -207,12 +213,10 @@
         background-position: bottom;
         /* background-size: 100% auto;
     background-position: top; */
+        background-attachment: fixed;
     }
     .how-does-it-works .how-does-it-works-content {
         max-width: 80%;
-    }
-    .how-does-it-works .top {
-        display: none;
     }
     .how-does-it-works .bottom {
         background-color: rgba(61, 169, 53, 0.95s);
@@ -237,9 +241,6 @@
     }
     .how-does-it-works .bottom .action {
         text-align: left;
-    }
-    .how-does-it-works .work-process {
-        display: block;
     }
     .our-partners {
         padding-top: 250px;
@@ -478,7 +479,7 @@
         display: none;
     }
     .banner-next:after {
-      content: none;
+        content: none;
     }
     /* solutions page ================================ */
     .banner-solution {
@@ -491,7 +492,6 @@
         background-color: #ffffff;
         margin-top: 50px;
         position: relative;
-      
     }
     .problem h2 {
         text-align: center !important;
@@ -518,19 +518,19 @@
         max-width: 150px;
         margin: 0 auto;
     }
-    .problem .problem-box h5{
-        font-size: 14px;    
+    .problem .problem-box h5 {
+        font-size: 14px;
     }
-    .problem .problem-box .overlay{
+    .problem .problem-box .overlay {
         font-size: 12px;
     }
-    .solutions-main{
+    .solutions-main {
         background-color: #ffffff;
     }
-    .solutions-main h2.title{
+    .solutions-main h2.title {
         text-align: center !important;
     }
-    h2.title.orange span:after{
+    h2.title.orange span:after {
         left: 50%;
     }
     .solutions-inner .solution-box {
@@ -538,18 +538,18 @@
         margin: 0 auto;
         margin-bottom: 50px;
     }
-    .how-does-it-works-2{
+    .how-does-it-works-2 {
         background: #ffffff;
         padding: 0;
     }
-    .how-does-it-works-2:after{
-        content:none;    
+    .how-does-it-works-2:after {
+        content: none;
     }
-    .how-does-it-works-2 .work-process{
+    .how-does-it-works-2 .work-process {
         margin-top: 0;
         border-radius: 0;
     }
-    .product-details{
+    .product-details {
         background: url(../images/solutions/bg-shape-2.png) no-repeat;
         background-color: transparent;
         background-size: 100% 100%;
@@ -558,13 +558,13 @@
         padding-top: 200px;
         padding-bottom: 150px;
     }
-    .product-details .title{
+    .product-details .title {
         max-width: 90%;
     }
-    .product-details+.home-contact{
+    .product-details+.home-contact {
         margin-top: -300px;
         margin-top: -300px;
-    padding-top: 225px;
+        padding-top: 225px;
     }
 }
 
@@ -609,33 +609,32 @@
     .how-we-do-inner {
         padding-top: 125px;
     }
-
     /* solutions=============== */
-    .banner-2{
+    .banner-2 {
         background-size: cover;
         background-position: right;
     }
-    .problem h2.title+p{
+    .problem h2.title+p {
         font-size: 16px;
     }
-    .solutions-inner .solution-box{
+    .solutions-inner .solution-box {
         max-width: 86%;
     }
-    .product-details-box{
+    .product-details-box {
         padding: 10px;
     }
-    .product-details-box .content-holder{
-        flex:0 0 60%;
+    .product-details-box .content-holder {
+        flex: 0 0 60%;
         max-width: 60%
     }
-    .product-details-box .content-holder{
+    .product-details-box .content-holder {
         font-size: 14px;
     }
-    .product-details-box .icon-holder{
+    .product-details-box .icon-holder {
         flex: 0 0 12%;
         max-width: 12%;
     }
-    .product-details-box .icon-holder img{
+    .product-details-box .icon-holder img {
         width: 25px;
         height: 25px;
     }
