@@ -16,11 +16,11 @@ $(function () {
             },
             767: {
                 items: 3,
-                nav: false
+                nav: true
             },
 
             1200: {
-                items: 5
+                items: 5,
             }
         }
     });
@@ -29,9 +29,23 @@ $(function () {
         loop: true,
         margin: 10,
         responsiveClass: true,
-        responsiveClass: true,
         dots: false,
         items: 1,
+        autoplay: true,
+        autoplayTimeout: 1500,
+        responsive: {
+            0: {
+                nav: false
+            },
+            767: {
+
+                nav: true
+            },
+
+            1200: {
+                nav: false
+            }
+        }
     });
 
     $('.banner-item-list').owlCarousel({
