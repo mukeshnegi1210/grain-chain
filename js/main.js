@@ -10,16 +10,16 @@ $(function () {
             0: {
                 items: 2,
                 center: true,
-                autoplay:true,
-                autoplayTimeout:1500,
-                nav:false
+                autoplay: true,
+                autoplayTimeout: 1500,
+                nav: false
             },
             767: {
                 items: 3,
-                nav:false
+                nav: false
             },
-          
-            1200:{
+
+            1200: {
                 items: 5
             }
         }
@@ -78,7 +78,8 @@ $(function () {
 
     $('#banner-enquiry').click(function () {
         $("html, body").animate({
-            scrollTop: $("#bottom-contact").offset().top - 50}, 600);
+            scrollTop: $("#bottom-contact").offset().top
+        }, 600);
     });
 
 });
