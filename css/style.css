@@ -402,6 +402,7 @@ header .menu-toggle {
     background: url(../images/Texture-right-Home-Desktop-Website-GC.png) no-repeat;
     background-size: 275px auto;
     background-position: right top;
+    background-attachment: fixed;
 }
 
 .how-we-do::after {
@@ -496,6 +497,7 @@ header .menu-toggle {
     background-position: bottom;
     /* background-size: 100% auto;
     background-position: top; */
+        background-attachment: fixed;
 }
 
 .how-does-it-works .how-does-it-works-content {
