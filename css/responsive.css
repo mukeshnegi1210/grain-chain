@@ -567,6 +567,8 @@
         padding-top: 225px;
     }
     /* buyers page===================== */
+
+   
     .buyers-challenges {
         padding: 40px 0;
         position: relative;
@@ -657,6 +659,9 @@
 /* extra small devices ======================= */
 
 @media(max-width:479px) {
+    .banner-content h1{
+        font-size: 30px;
+    }
     .banner {
         max-height: 400px;
     }
@@ -689,6 +694,7 @@
         padding-top: 125px;
     }
     /* solutions=============== */
+    
     .banner-2 {
         background-size: cover;
         background-position: right;
@@ -718,7 +724,8 @@
         height: 25px;
     }
 
-    /* buyers */
+    /* buyers======================== */
+   
     .buyers-challenges .buyers-challenges-inner{
         max-width: 100%;
         padding: 15px;

@@ -1437,7 +1437,7 @@ footer .social-media ul li:hover img {
 /* buyers page================ */
 
 .banner-buyers {
-    background: url(../images/buyers/buyers-banner.png) no-repeat center;
+    background-image: url(../images/buyers/buyers-banner.png) !important;
     background-size: cover;
 }
 
@@ -1493,12 +1493,13 @@ footer .social-media ul li:hover img {
 }
 
 .product-details {
-    padding:50px 0;
+    padding: 50px 0;
     background-color: #ffffff;
     position: relative;
     z-index: 99;
 }
-.product-details-inner{
+
+.product-details-inner {
     background: url(../images/buyers/earth-img.png) no-repeat center bottom;
     padding: 20px 0;
     background-size: 100% 100%;
@@ -1523,11 +1524,11 @@ footer .social-media ul li:hover img {
 
 .product-details .action .btn {
     max-width: 767px;
-    margin:0 auto;
+    margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 .product-details .action .btn span {
@@ -1536,6 +1537,16 @@ footer .social-media ul li:hover img {
     white-space: initial;
     text-align: left;
 }
+
 .product-details .action .btn img {
-    flex: 0 0  50px;
+    flex: 0 0 50px;
+}
+
+
+/* storage page ================================ */
+.banner-storage{
+    background-image: url(../images/storage/storage-banner.png) !important;
+}
+.buyers-challenges.storage-buyers-challenges .buyers-challenges-inner .left-inner {
+    max-width: 80%;
 }
