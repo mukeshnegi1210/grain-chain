@@ -1,5 +1,11 @@
 $(function () {
+    // contact form button 
 
+    $('#banner-enquiry').click(function () {
+        $("html, body").animate({
+            scrollTop: $("#bottom-contact").offset().top
+        }, 600);
+    });
 
     $('.partners-list').owlCarousel({
         loop: true,
@@ -20,7 +26,7 @@ $(function () {
             },
 
             1200: {
-                items: 5,
+                items: 5
             }
         }
     });
@@ -76,8 +82,7 @@ $(function () {
         }
     });
 
-    // wow initiate
-    new WOW().init();
+
 
 
     // menu mobile
@@ -88,12 +93,19 @@ $(function () {
         $('.primary-menu').removeClass('active');
     });
 
-    // contact form button 
 
-    $('#banner-enquiry').click(function () {
-        $("html, body").animate({
-            scrollTop: $("#bottom-contact").offset().top
-        }, 600);
+
+
+
+    // products / benefits accordions
+
+    $('.benefits-box').click(function () {
+        $('.benefits-content').slideUp();
+        $(this).next('.benefits-content').slideDown();
+        $('.benefits-box').removeClass('active')
+        $(this).addClass('active');
     });
 
+    // wow initiate
+    new WOW().init();
 });
