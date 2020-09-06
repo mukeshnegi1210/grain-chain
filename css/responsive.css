@@ -647,6 +647,15 @@
     .product-details ~ .home-contact{
       margin-top: -75px;
     }
+    .product-details .action .btn{
+        font-size:13px ;
+    }
+    /* producer page ======================= */
+    .producer-buyers-challenges{
+        margin-top: 0;
+        padding-top: 50px;
+       
+    }
 }
 
 @media(min-width:768px) {

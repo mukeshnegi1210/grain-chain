@@ -1544,9 +1544,30 @@ footer .social-media ul li:hover img {
 
 
 /* storage page ================================ */
-.banner-storage{
+
+.banner-storage {
     background-image: url(../images/storage/storage-banner.png) !important;
 }
+
 .buyers-challenges.storage-buyers-challenges .buyers-challenges-inner .left-inner {
-    max-width: 80%;
+    max-width: 82%;
+}
+
+
+/* Producer  page ================================ */
+
+.banner-producer {
+    background-image: url(../images/producer/producer-banner.png) !important;
+}
+
+.producer-buyers-challenges {
+    background: url(../images/producer/producer-bg-1.png) no-repeat center fixed;
+    background-size: cover;
+
+    margin-top: -150px;
+    padding-top: 220px;
+}
+
+.producer-buyers-challenges.buyers-challenges .buyers-challenges-inner .left-inner {
+    max-width: 95%;
 }
