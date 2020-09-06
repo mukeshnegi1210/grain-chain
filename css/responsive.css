@@ -549,7 +549,7 @@
         margin-top: 0;
         border-radius: 0;
     }
-    .product-details {
+    .benefits {
         background: url(../images/solutions/bg-shape-2.png) no-repeat;
         background-color: transparent;
         background-size: 100% 100%;
@@ -558,13 +558,92 @@
         padding-top: 200px;
         padding-bottom: 150px;
     }
-    .product-details .title {
+    .benefits .title {
         max-width: 90%;
     }
-    .product-details+.home-contact {
+    .benefits+.home-contact {
         margin-top: -300px;
         margin-top: -300px;
         padding-top: 225px;
+    }
+    /* buyers page===================== */
+    .buyers-challenges {
+        padding: 40px 0;
+        position: relative;
+        background: url(../images/texture-1.png) no-repeat left center;
+        background-size: 35% 55%;
+        background-attachment: fixed;
+    }
+    
+    .buyers-challenges .buyers-challenges-inner {
+        flex-direction: column;
+    }
+    .buyers-challenges .buyers-challenges-inner .left {
+        border-right: 0;
+        text-align: left;
+    }
+    .buyers-challenges .buyers-challenges-inner .left-inner {
+        max-width: 250px;
+        display: flex;
+        position: relative;
+        margin: 0 auto;
+        display: flex;
+        position: relative;
+        align-items: center;
+        padding-bottom: 20px;
+    }
+    .buyers-challenges .buyers-challenges-inner .left-inner:after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        width: 100%;
+        max-width: 75%;
+        height: 1px;
+        background-color: #000000;
+        transform: translateX(-50%);
+    }
+    .buyers-challenges .buyers-challenges-inner .left-inner img {
+        max-width: 75px;
+        margin-right: 20px;
+    }
+    .buyers-challenges .buyers-challenges-inner .left-inner h2 {
+        margin-bottom: 0;
+    }
+    .buyers-challenges .buyers-challenges-inner .right {
+        padding: 20px;
+    }
+    .buyers-challenges .buyers-challenges-inner .right li {
+        margin-bottom: 10px;
+    }
+    .benefits.buyers-benefits {
+        background: none;
+        background-color: #ffffff;
+        top: 0;
+        padding: 50px 0;
+    }
+    .product-details {
+        padding-bottom: 0;
+    }
+    .product-details-inner {
+        background-image: url(../images/buyers/earth-img-mobile.png);
+        background-color: #f4f4f4;
+        background-size: 100%;
+    }
+    .product-details .action {
+        margin-top: 0;
+        background: #f4f4f4;
+        padding-bottom: 25px;
+    }
+    .product-details .action .btn {
+        max-width: 90%;
+    }
+    .product-details+.bottom-img-shape {
+        position: relative;
+        z-index: 99;
+    }
+    .product-details ~ .home-contact{
+      margin-top: -75px;
     }
 }
 
@@ -620,22 +699,45 @@
     .solutions-inner .solution-box {
         max-width: 86%;
     }
-    .product-details-box {
+    .benefits-box {
         padding: 10px;
     }
-    .product-details-box .content-holder {
+    .benefits-box .content-holder {
         flex: 0 0 60%;
         max-width: 60%
     }
-    .product-details-box .content-holder {
+    .benefits-box .content-holder {
         font-size: 14px;
     }
-    .product-details-box .icon-holder {
+    .benefits-box .icon-holder {
         flex: 0 0 12%;
         max-width: 12%;
     }
-    .product-details-box .icon-holder img {
+    .benefits-box .icon-holder img {
         width: 25px;
         height: 25px;
+    }
+
+    /* buyers */
+    .buyers-challenges .buyers-challenges-inner{
+        max-width: 100%;
+        padding: 15px;
+    }
+    .buyers-challenges .buyers-challenges-inner .left{
+        padding: 0;
+    }
+    .buyers-challenges .buyers-challenges-inner .right{
+        padding: 20px 0;
+    }
+    .benefits-content{
+        padding: 20px 15px;
+    }
+    .product-details .action .btn {
+
+        font-size: 11px;
+    }
+    .product-details .action .btn img{
+        flex:0 0 30px;
+        max-width: 30px;
     }
 }
