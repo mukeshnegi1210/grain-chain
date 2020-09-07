@@ -473,7 +473,7 @@
         max-width: 90%;
     }
     .banner-content h1 {
-        font-size: 40px;
+        font-size: 35px;
     }
     .mobile-hide {
         display: none;
@@ -567,8 +567,6 @@
         padding-top: 225px;
     }
     /* buyers page===================== */
-
-   
     .buyers-challenges {
         padding: 40px 0;
         position: relative;
@@ -576,7 +574,6 @@
         background-size: 35% 55%;
         background-attachment: fixed;
     }
-    
     .buyers-challenges .buyers-challenges-inner {
         flex-direction: column;
     }
@@ -644,17 +641,68 @@
         position: relative;
         z-index: 99;
     }
-    .product-details ~ .home-contact{
-      margin-top: -75px;
+    .product-details~.home-contact {
+        margin-top: -75px;
     }
-    .product-details .action .btn{
-        font-size:13px ;
+    .product-details .action .btn {
+        font-size: 13px;
     }
     /* producer page ======================= */
-    .producer-buyers-challenges{
+    .producer-buyers-challenges {
         margin-top: 0;
         padding-top: 50px;
-       
+    }
+    /* products page======================== */
+    .main-product-info .logo-img,
+    .main-product-info .display-img {
+        display: none;
+    }
+    .main-product-info .container {
+        max-width: 90%;
+    }
+    .main-product-info {
+        text-align: justify;
+    }
+    .product-trumodity {
+        background-color: #f4f4f4;
+    }
+    .product-silosys .left {
+        padding-left: 0;
+    }
+    .product-harvx {
+        background-color: #f4f4f4;
+    }
+    .product-harvx .bottom-cta-btn {
+        display: none;
+    }
+    .product-harvx+img {
+        position: relative;
+        z-index: 99;
+    }
+  
+    .main-product-info .action {
+        text-align: center;
+        margin-top: 75px;
+    }
+    .banner-content p {
+        max-width: 80%;
+    }
+    .banner-floating {
+        top: -8vh;
+    }
+    .main-product-info.product-seed-audit {
+        margin-top: -40px;
+    }
+    .product-harvx {
+        position: relative;
+        z-index: 999;
+    }
+    .main-product-info~.home-contact {
+        margin-top: -80px;
+    }
+  
+    .product-harvx .action {
+  margin-bottom: -100px;
     }
 }
 
@@ -668,13 +716,16 @@
 /* extra small devices ======================= */
 
 @media(max-width:479px) {
-    .banner-content h1{
+    .banner-content h1 {
         font-size: 30px;
     }
     .banner {
         max-height: 400px;
     }
     .banner-item {
+        max-width: 100%;
+    }
+    .banner-content p {
         max-width: 100%;
     }
     .banner-item img {
@@ -703,7 +754,6 @@
         padding-top: 125px;
     }
     /* solutions=============== */
-    
     .banner-2 {
         background-size: cover;
         background-position: right;
@@ -732,28 +782,27 @@
         width: 25px;
         height: 25px;
     }
-
     /* buyers======================== */
-   
-    .buyers-challenges .buyers-challenges-inner{
+    .buyers-challenges .buyers-challenges-inner {
         max-width: 100%;
         padding: 15px;
     }
-    .buyers-challenges .buyers-challenges-inner .left{
+    .buyers-challenges .buyers-challenges-inner .left {
         padding: 0;
     }
-    .buyers-challenges .buyers-challenges-inner .right{
+    .buyers-challenges .buyers-challenges-inner .right {
         padding: 20px 0;
     }
-    .benefits-content{
+    .benefits-content {
         padding: 20px 15px;
     }
-    .product-details .action .btn {
-
+    .product-details .action .btn,
+    .bottom-cta-btn {
         font-size: 11px;
     }
-    .product-details .action .btn img{
-        flex:0 0 30px;
+    .product-details .action .btn img,
+    .bottom-cta-btn img {
+        flex: 0 0 30px;
         max-width: 30px;
     }
 }
