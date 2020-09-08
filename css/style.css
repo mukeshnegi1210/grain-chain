@@ -229,7 +229,13 @@ ul {
     padding-left: 0;
 }
 
-
+/* owl */
+.owl-theme .owl-dots .owl-dot span{
+    background:#4e4d4d;
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
+    background: #76b72a;
+}
 /* main styling==================================== */
 
 header {
@@ -1757,17 +1763,132 @@ footer .social-media ul li:hover img {
     padding: 30px 0;
 }
 
-
-
 .openings-list .opening-box {
     display: flex;
     align-items: flex-start;
     padding: 50px 0;
 }
+
 .opening-box .opening-content {
     padding-left: 10px;
     font-weight: 600;
 }
+
 .opening-box .opening-content p {
     margin-bottom: 0
 }
+
+
+/* blockchain page========================== */
+
+.banner-blockchain {
+    background-image: url(../images/block-chain/block-chain-banner.png) !important;
+}
+
+.why-blockchain {
+    padding: 75px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.why-blockchain-content {
+    padding-left: 9%;
+    flex: 0 0 45%;
+}
+
+.why-blockchain-content .title+p {
+    max-width: 100%;
+    text-align: justify;
+    line-height: 1.8;
+}
+
+.why-blockchain-img {
+    max-width: 45%;
+    position: relative;
+    margin-top: -300px;
+    z-index: 9;
+}
+
+.why-blockchain-img img {
+    max-width: 90%;
+}
+
+.blockchain-contracts {
+    display: flex;
+    background-color: #fafafa;
+}
+
+.blockchain-contracts-img {
+    flex: 0 0 40%;
+}
+
+.blockchain-contracts-content {
+    padding: 50px 30px;
+}
+
+.blockchain-contracts-content .title+p {
+    text-align: justify;
+    max-width: 70%;
+    line-height: 1.8;
+    margin-left: 0;
+}
+
+.blockchain-technology {
+    padding: 75px 0;
+}
+
+.blockchain-technology-flow {
+    margin-top: 50px;
+}
+
+.blockchain-benefits {
+    background-color: #3da935;
+    padding: 75px 0;
+}
+
+.blockchain-benefits-list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.blockchain-benefits-list li {
+    /* flex-grow: 1; */
+    font-style: italic;
+    padding-right: 10px;
+    text-align: center;
+}
+.blockchain-benefits-list li:last-child{
+padding-right: 0;
+}
+
+.blockchain-benefits-list li p {
+    color: rgba(255, 255, 225, .8);
+    margin-bottom: 0;
+    font-size: 13px;
+}
+
+.blockchain-benefits-list li h4 {
+    color: #ffffff;
+    margin-bottom: 0;
+    font-size: 16px;
+}
+.blockchain-benefits-list li .img-wrapper{
+    min-height: 100px;
+}
+
+.blockchain-benefits-list li .img-wrapper img{
+    width: auto !important;
+    display: inline-block !important;
+}
+.blockchain-benefits .owl-nav {
+    font-size: 45px;
+    color: #ffffff;
+    max-width: 30%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+

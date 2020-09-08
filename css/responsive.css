@@ -344,7 +344,7 @@
         padding: 40px 0;
         -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-        max-width: 90%;
+        max-width: 100%;
     }
     .home-contact .form-wrapper .form-control {
         border: 1px solid #cccccc;
@@ -748,17 +748,102 @@
         font-size: 18px;
         text-align: center;
     }
-    .current-openings + .img-fluid + .home-contact {
+    .current-openings+.img-fluid+.home-contact {
         margin-top: -200px;
     }
-    .current-openings + .img-fluid + .home-contact::before{
+    .current-openings+.img-fluid+.home-contact::before {
         content: none;
+    }
+    /* blockchain========================== */
+    .why-blockchain {
+        flex-wrap: wrap;
+        padding: 50px 0;
+        margin-bottom: -200px;
+    }
+    .why-blockchain-img {
+        flex: 0 0 100%;
+        max-width: 100%;
+        order: 1;
+        text-align: right;
+        margin-top: -200px;
+        margin-bottom: 60px;
+    }
+    .why-blockchain-img img {
+        max-width: 50%;
+    }
+    .why-blockchain-content {
+        flex: 0 0 100%;
+        max-width: 80%;
+        order: 2;
+        border-radius: 20px;
+        padding: 30px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, .3);
+        margin: 0 auto;
+        font-size: 16px;
+        position: relative;
+        z-index: 99;
+        background: #ffffff;
+    }
+    .why-blockchain-content h2.title,
+    .blockchain-contracts-content .title {
+        text-align: center !important;
+        margin-bottom: 40px;
+    }
+    .why-blockchain-content h2.title.bottom span:after,
+    .blockchain-contracts-content .title span:after {
+        left: 50% !important;
+    }
+    .blockchain-contracts {
+        background-color: #f4f4f4;
+        position: relative;
+        padding-top: 150px;
+    }
+    .blockchain-contracts-content .title+p {
+        max-width: 80%;
+        margin: 0 auto;
+        font-size: 16px;
+    }
+    .blockchain-technology {
+        padding: 50px 0;
+        background-color: #f4f4f4;
+    }
+    .blockchain-technology .title {
+        text-align: center !important;
+    }
+    .blockchain-technology .container-inner {
+        max-width: 80%;
+        margin: 0 auto;
+        background-color: #ffffff;
+        border-radius: 20px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, .3);
+        padding: 30px;
+        margin-bottom: -200px;
+        position: relative;
+        z-index: 999;
+    }
+    .blockchain-technology-flow-mobile {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+    .blockchain-benefits {
+        padding-top: 30px;
+    }
+    .blockchain-benefits .title {
+        text-align: center !important;
+    }
+    .blockchain-technology~img.green-top {
+        margin-top: 200px;
+    }
+    .blockchain-benefits {}
+    .blockchain-benefits+img.green-bottom+.home-contact {
+        padding-top: 0;
+        margin-top: -100px;
     }
 }
 
 @media(min-width:768px) {
     .desktop-hide {
-        display: none;
+        display: none !important;
     }
 }
 
@@ -860,5 +945,20 @@
     }
     .problem .problem-box h5 {
         font-size: 16px;
+    }
+    /* blockchain========================= */
+    .why-blockchain-content {
+        max-width: 90%;
+        font-size: 14px;
+    }
+    .blockchain-contracts-content .title+p {
+        font-size: 14px;
+        max-width: 100%;
+    }
+    .blockchain-technology .container-inner {
+        max-width: 90%
+    }
+    .why-blockchain-img {
+        margin-top: -160px;
     }
 }
