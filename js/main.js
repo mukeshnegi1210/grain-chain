@@ -39,12 +39,62 @@ $(function () {
         items: 1,
         autoplay: true,
         autoplayTimeout: 2500,
+
         responsive: {
             0: {
                 nav: false
             },
             767: {
+                nav: true
+            },
 
+            1200: {
+                nav: false
+            }
+        }
+    });
+
+
+    $('.blockchain-benefits-list').owlCarousel({
+        loop: true,
+        margin: 10,
+        responsiveClass: true,
+        dots: false,
+        items: 6,
+        autoplay: true,
+        autoplayTimeout: 2500,
+        autoWidth: true,
+        responsive: {
+            0: {
+                items: 2,
+                nav: true
+            },
+            767: {
+                items: 4, 
+                nav: true
+            },
+
+            1200: {
+                items: 6
+            }
+        }
+    });
+
+
+    $('.blockchain-technology-flow-mobile').owlCarousel({
+        loop: true,
+        margin: 10,
+        responsiveClass: true,
+        dots: false,
+        items: 1,
+        autoplay: true,
+        autoplayTimeout: 2500,
+        dots: true,
+        responsive: {
+            0: {
+                nav: false
+            },
+            767: {
                 nav: true
             },
 
