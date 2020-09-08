@@ -105,6 +105,12 @@ h2.title.orange span:after {
 h2.title.blue span:after {
     background: #0068ff;
 }
+h2.title.light-green span:after {
+    background: #bae543 ;
+}
+h2.title.red span:after {
+    background: #ef5021;
+}
 
 
 /* h2.title span:after {
@@ -144,6 +150,13 @@ h1.title span:after {
 .text-blue {
     color: #0068ff;
 }
+.text-light-green{
+    color:#bae543 ;
+}
+.text-red{
+    color: #ef5021;
+}
+
 
 h2.title+p {
     font-weight: 600;
@@ -977,7 +990,7 @@ footer .social-media ul li:hover img {
 }
 
 .banner-2 {
-    height: 100vh;
+    height: 650px;
     position: relative;
     max-height: 100vh !important;
     background-size: 100% 100%;
@@ -1195,6 +1208,7 @@ footer .social-media ul li:hover img {
     bottom: 0;
 } */
 
+
 .benefits-box {
     padding: 20px 40px;
     background: #ffffff;
@@ -1206,6 +1220,11 @@ footer .social-media ul li:hover img {
     min-height: 130px;
     box-shadow: 0 0 5px rgba(0, 0, 0, .3);
     cursor: pointer;
+    color:#494949;
+}
+.benefits-box:hover{
+  color:#494949;;
+  text-decoration:none;
 }
 
 .benefits-box .logo-holder {
@@ -1593,7 +1612,24 @@ footer .social-media ul li:hover img {
 .banner-products {
     background-image: url(../images/products/products-banner.png) !important;
 }
-
+.banner-products .banner-content{
+    text-align: center;
+}
+.banner-products h1{
+    text-align:center;
+}
+.banner-products h1.title span{
+    padding-bottom: 20px;
+}
+.banner-products h1.title span:after{
+    left: 50%;
+    transform: translateX(-50%);
+}
+.banner-products .banner-content p{
+    max-width: 400px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
 .banner-floating {
     position: relative;
     top: -15vh;
@@ -1636,11 +1672,10 @@ footer .social-media ul li:hover img {
     background-color: #e6e5e6;
     position: relative;
     z-index: 9;
-    padding-bottom: 75px;
+  
 }
 .product-harvx .bottom-cta-btn{
-    position: absolute;
-    bottom: -30px;
-    left: 50%;
-    transform: translateX(-50%);
+    position: relative;
+    bottom: -80px;
+ 
 }
