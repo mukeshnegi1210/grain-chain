@@ -38,7 +38,7 @@ $(function () {
         dots: false,
         items: 1,
         autoplay: true,
-        autoplayTimeout: 1500,
+        autoplayTimeout: 2500,
         responsive: {
             0: {
                 nav: false
@@ -99,7 +99,7 @@ $(function () {
 
     // products / benefits accordions
 
-    $('.benefits-box').click(function () {
+    $('div.benefits-box').click(function () {
         $('.benefits-content').slideUp();
         $(this).next('.benefits-content').slideDown();
         $('.benefits-box').removeClass('active')
