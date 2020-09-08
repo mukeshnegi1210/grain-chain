@@ -679,7 +679,6 @@
         position: relative;
         z-index: 99;
     }
-  
     .main-product-info .action {
         text-align: center;
         margin-top: 75px;
@@ -700,9 +699,60 @@
     .main-product-info~.home-contact {
         margin-top: -80px;
     }
-  
     .product-harvx .action {
-  margin-bottom: -100px;
+        margin-bottom: -100px;
+    }
+    /* career page==================== */
+    .career-innovative-team .innovative-team-content {
+        align-items: center;
+    }
+    .innovative-team-content h2.title+p {
+        max-width: 100%;
+        text-align: center;
+    }
+    .innovative-team-content .learn-more-tab-wrapper {
+        text-align: center;
+    }
+    .innovative-team-content .learn-more-tab-wrapper ul {
+        align-items: center;
+        margin-top: 40px;
+    }
+    .innovative-team-content .learn-more-tab-wrapper ul li {
+        margin-right: 10px;
+    }
+    .innovative-team-content .learn-more-tab-wrapper ul li:last-child {
+        margin-right: 0px;
+    }
+    .innovative-team-content .learn-more-tab-wrapper ul li a {
+        border: 1px solid #40a526;
+        border-radius: 10px;
+        font-size: 16px;
+        padding: 5px;
+    }
+    .innovative-team-content .learn-more-tab-wrapper ul li:hover a {
+        background-color: #40a526;
+        color: #ffffff;
+    }
+    .current-openings {
+        padding: 50px 0;
+        background-color: #f4f4f4;
+    }
+    .openings-list .opening-box {
+        flex-direction: column;
+        align-items: center;
+        padding: 30px 0;
+    }
+    .opening-box .opening-content {
+        margin-top: 15px;
+        padding-left: 0;
+        font-size: 18px;
+        text-align: center;
+    }
+    .current-openings + .img-fluid + .home-contact {
+        margin-top: -200px;
+    }
+    .current-openings + .img-fluid + .home-contact::before{
+        content: none;
     }
 }
 
@@ -805,10 +855,10 @@
         flex: 0 0 30px;
         max-width: 30px;
     }
-    .problem .problem-box .overlay{
+    .problem .problem-box .overlay {
         font-size: 14px;
     }
-    .problem .problem-box h5{
+    .problem .problem-box h5 {
         font-size: 16px;
     }
 }
