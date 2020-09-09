@@ -229,13 +229,19 @@ ul {
     padding-left: 0;
 }
 
+
 /* owl */
-.owl-theme .owl-dots .owl-dot span{
-    background:#4e4d4d;
+
+.owl-theme .owl-dots .owl-dot span {
+    background: #4e4d4d;
 }
-.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
     background: #76b72a;
 }
+
+
 /* main styling==================================== */
 
 header {
@@ -1858,8 +1864,9 @@ footer .social-media ul li:hover img {
     padding-right: 10px;
     text-align: center;
 }
-.blockchain-benefits-list li:last-child{
-padding-right: 0;
+
+.blockchain-benefits-list li:last-child {
+    padding-right: 0;
 }
 
 .blockchain-benefits-list li p {
@@ -1873,14 +1880,16 @@ padding-right: 0;
     margin-bottom: 0;
     font-size: 16px;
 }
-.blockchain-benefits-list li .img-wrapper{
+
+.blockchain-benefits-list li .img-wrapper {
     min-height: 100px;
 }
 
-.blockchain-benefits-list li .img-wrapper img{
+.blockchain-benefits-list li .img-wrapper img {
     width: auto !important;
     display: inline-block !important;
 }
+
 .blockchain-benefits .owl-nav {
     font-size: 45px;
     color: #ffffff;
@@ -1892,3 +1901,143 @@ padding-right: 0;
 }
 
 
+/* media page=========================== */
+
+.banner-media {
+    background-image: url(../images/media/media-banner.png) !important;
+}
+
+.banner-media .banner-content p {
+    max-width: 460px;
+}
+
+.media-releases {
+    padding: 75px 0;
+}
+
+.media-releases-tabs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.media-releases-tabs li {
+    padding: 5px 10px;
+    color: #4e4d4d;
+    font-weight: 600;
+    border-radius: 8px;
+    border: 2px solid;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.media-releases-tabs li:last-child {
+    margin-right: 0;
+}
+
+.media-releases-tabs li.active,
+.media-releases-tabs li:hover {
+    border-color: #00ab14;
+}
+
+.media-releases .media-post {
+    position: relative;
+    margin-top: 30px;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+.media-releases .media-post img {
+    object-fit: cover;
+    object-position: center;
+}
+
+.media-tabs-content {
+    display: none !important;
+}
+
+.media-tabs-content.active {
+    display: block !important;
+}
+.media-tabs-content .owl-nav{
+    max-width: 150px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    font-size: 35px;
+    color: #00ab14;
+    margin-top: 50px;
+
+}
+.media-tabs-content .owl-nav button {
+    display: flex !important;
+    width: 35px;
+    height: 35px;
+    justify-content: center;
+    align-items: center;
+
+    border:2px solid #00ab14 !important;
+    border-radius: 50% !important;
+}
+.media-tabs-content .owl-nav button span{
+    position: relative;
+    top: -3px;
+}
+.media-post-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 5%;
+
+}
+
+.date-publisher {
+    position: absolute;
+    bottom: 5%;
+    padding-left: 5%;
+    left: 0;
+    width: 100%;
+    font-style: italic;
+}
+
+.date-publisher .release-date span {
+    display: inline-block;
+    border-bottom: 1px solid;
+}
+
+.date-publisher p {
+    margin-bottom: 0;
+}
+
+.date-publisher.big p {
+    font-size: 20px;
+}
+
+.about-grainchain-inc {
+    padding: 75px 0;
+}
+
+.about-grainchain-inc p {
+    font-weight: normal !important;
+    text-align: center;
+    max-width: 100% !important;
+    margin-bottom: 20px !important;
+}
+
+.media-kit-download {
+    background-color: #3da935;
+    text-align: center;
+    padding-bottom: 150px;
+}
+
+.media-kit-download h2.title+p {
+    max-width: 50%;
+    margin-bottom: 50px;
+}
+
+.media-kit-download+.img-fluid+.home-contact {
+    margin-top: -200px;
+    padding-top: 0;
+}

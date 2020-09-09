@@ -13,6 +13,10 @@
     .how-does-it-works .top {
         display: none;
     }
+    /* media page================ */
+    .media-post-content h2 {
+        font-size: 25px;
+    }
 }
 
 @media(max-width:991px) {
@@ -24,6 +28,13 @@
     }
     .how-we-do::after {
         bottom: -135px;
+    }
+    /* media page================ */
+    .media-post-content h2 {
+        font-size: 18px;
+    }
+    .date-publisher p {
+        font-size: 14px !important;
     }
 }
 
@@ -839,6 +850,26 @@
         padding-top: 0;
         margin-top: -100px;
     }
+    /* media page============================= */
+    .media-releases {
+        padding: 50px 0;
+    }
+    .about-grainchain-inc {
+        padding: 50px 0;
+    }
+    .media-kit-download h2.title+p {
+        max-width: 75%;
+    }
+    .media-kit-download+.img-fluid+.home-contact {
+        margin-top: -150px;
+        padding-top: 0;
+    }
+    .media-post-content h2{
+        font-size: 16px;
+    }
+    .date-publisher p{
+        font-size:12px !important;
+    }
 }
 
 @media(min-width:768px) {
@@ -960,5 +991,24 @@
     }
     .why-blockchain-img {
         margin-top: -160px;
+    }
+    /* media page============================= */
+    .media-kit-download h2.title+p {
+        max-width: 100%;
+    }
+    .media-tabs-content .row{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .media-tabs-content .row [class*="col"]{
+        padding-left: 5px;
+        padding-right: 5px;
+        flex:0 0 100%;
+        max-width: 100% !important;
+    }
+    .media-releases .media-post{
+        max-width: 275px;
+        margin: 0 auto;
+        margin-bottom: 20px;
     }
 }
