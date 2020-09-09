@@ -137,6 +137,13 @@ $(function () {
         autoHeight:true
 
     });
+    $('.app-img-list').owlCarousel({
+        loop: true,
+        center: true,
+        dots: true,
+        nav: false,
+        items: 1
+    });
 
 
 
