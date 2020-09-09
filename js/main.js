@@ -55,12 +55,12 @@ $(function () {
     });
 
 
-    $('.blockchain-benefits-list').owlCarousel({
+    $('.blockchain-benefits-list-mobile').owlCarousel({
         loop: true,
         margin: 10,
         responsiveClass: true,
         dots: false,
-        items: 6,
+        items: 4,
         autoplay: true,
         autoplayTimeout: 2500,
         autoWidth: true,
@@ -70,12 +70,8 @@ $(function () {
                 nav: true
             },
             767: {
-                items: 4, 
+                items: 4,
                 nav: true
-            },
-
-            1200: {
-                items: 6
             }
         }
     });
@@ -132,6 +128,16 @@ $(function () {
         }
     });
 
+    $('.media-tab-content-wrapper.mobile .media-tabs-content').owlCarousel({
+        loop: true,
+        center: true,
+        dots: false,
+        nav: true,
+        items: 1,
+        autoHeight:true
+
+    });
+
 
 
 
@@ -156,6 +162,16 @@ $(function () {
         $(this).addClass('active');
     });
 
+    // media tabs
+
+    $('.media-releases-tabs li').click(function () {
+        var get_tab_id = $(this).attr('data-tab')
+
+        $('.media-releases-tabs li').removeClass('active');
+        $(this).addClass('active');
+        $('.media-tabs-content').removeClass('active')
+        $(get_tab_id).addClass('active');
+    });
     // wow initiate
     new WOW().init();
 });
