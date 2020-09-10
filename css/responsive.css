@@ -1180,8 +1180,8 @@
     }
     /* solutions=============== */
     .banner-2 {
-        background-size: cover;
-        background-position: right;
+        background-size: 100% 100%;
+        background-position: center;
     }
     .problem h2.title+p {
         font-size: 16px;
@@ -1231,7 +1231,7 @@
         max-width: 30px;
     }
     .problem .problem-box .overlay {
-        font-size: 14px;
+        font-size: 16px;
     }
     .problem .problem-box h5 {
         font-size: 16px;
@@ -1290,5 +1290,7 @@
         font-weight: 600;
     }
 
-    
+    .how-does-it-works .work-process-list .owl-nav{
+        display: none;
+    }
 }

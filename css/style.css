@@ -699,6 +699,9 @@ header .menu-toggle {
     transform: translateY(-50%);
     font-size: 70px;
 }
+.how-does-it-works .owl-dots .owl-dot.active span, .how-does-it-works .owl-dots .owl-dot:hover span{
+background: #3ca935 !important;
+}
 
 .our-partners {
     padding-top: 150px;
