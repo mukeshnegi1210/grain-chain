@@ -35,13 +35,13 @@ $(function () {
         loop: true,
         margin: 10,
         responsiveClass: true,
-        dots: false,
+        dots: true,
         items: 1,
         autoplay: true,
         autoplayTimeout: 2500,
 
         responsive: {
-            0: {
+            400: {
                 nav: false
             },
             767: {
@@ -184,10 +184,13 @@ $(function () {
     // products / benefits accordions
 
     $('div.benefits-box').click(function () {
-        $('.benefits-content').slideUp();
-        $(this).next('.benefits-content').slideDown();
-        $('.benefits-box').removeClass('active')
-        $(this).addClass('active');
+        // $('.benefits-content').fadeOut(500);
+        // $(this).next('.benefits-content').fadeIn(500);
+        $('.benefits-content').slideUp(500);
+        $(this).next('.benefits-content').slideDown(500);
+        $('.benefits-box').removeClass('active');
+        $(this).addClass('active');   
+   
     });
 
     // media tabs
