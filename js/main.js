@@ -124,7 +124,7 @@ $(function () {
             600: {
                 items: 2
 
-            },
+            }
         }
     });
 
@@ -134,7 +134,7 @@ $(function () {
         dots: false,
         nav: true,
         items: 1,
-        autoHeight:true
+        autoHeight: true
 
     });
     $('.app-img-list').owlCarousel({
@@ -143,6 +143,27 @@ $(function () {
         dots: true,
         nav: false,
         items: 1
+    });
+
+
+    // harvex slider============
+    // ----producer 
+    $('.producer-slider, .drivers-slider, .facility-slider ').owlCarousel({
+        loop: true,
+        dots: false,
+        nav: true,
+        margin:20,
+        autoplay:2500,
+        responsiveClass: true,
+        items: 4,
+        responsive: {
+            0: {
+                items: 2,
+            },
+            479: {
+                items: 4
+            }
+        }
     });
 
 
