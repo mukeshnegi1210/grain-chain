@@ -70,6 +70,9 @@
         width: 50px;
         height: 4px;
     }
+    h2.title.bottom span:after {
+        transform: none;
+    }
     /* main styling */
     header {
         position: absolute;
@@ -905,7 +908,7 @@
         background: #f4f4f4;
         padding-bottom: 40px;
     }
-    .product-details.product-details-2:after{
+    .product-details.product-details-2:after {
         content: none;
     }
     .product-details-2 .title-image-wrapper {
@@ -918,6 +921,214 @@
     .product-details-2 .product-details .product-list {
         margin-top: 35px;
     }
+    /* sylosis product page ====================================== */
+    .about-sylosis {
+        padding-top: 50px;
+    }
+    .about-sylosis-content {
+        margin-bottom: 50px;
+    }
+    .about-sylosis-content .title-img {
+        max-width: 50%;
+        margin: 0 auto;
+        padding: 0;
+        display: block;
+        margin-bottom: 30px;
+    }
+    .about-sylosis-content p {
+        text-align: center;
+        max-width: 78%;
+        font-size: 16px;
+        line-height: 28px;
+        font-weight: 600;
+        margin: 0 auto;
+    }
+    .about-sylosis .display-img {
+        margin-bottom: 0;
+        max-width: 75%;
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+    }
+    .sylosis-process {
+        background: #ffffff;
+        margin-top: -275px;
+        padding: 0;
+    }
+    .sylosis-process .container {
+        background: #f9f9f9;
+        padding: 150px 0;
+    }
+    .sylosis-process .process-box {
+        padding: 40px 25px;
+    }
+    .sylosis-process .process-box:after {
+        content: none;
+    }
+    .sylosis-process .process-box p {
+        font-size: 16px;
+        font-weight: 600;
+        max-width: 75%;
+        margin: 0 auto;
+    }
+    .sylosis-process .process-box h4 {
+        margin-bottom: 15px;
+    }
+    .sylosis-product-details {
+        background: #ffffff !important;
+    }
+    .sylosis-product-details .product-details-inner {
+        background-color: #ffffff;
+    }
+    .sylosis-product-details .action {
+        background-color: #ffffff;
+    }
+    /* harvx page ============================= */
+    .harvx-producer {
+        padding: 50px 0;
+        background: #ffffff;
+    }
+    .harvx-producer-content {
+        padding-top: 0;
+    }
+    .harvx-producer h4,
+    .harvx-producer .title {
+        text-align: center !important;
+    }
+    .harvx-producer h2.title.bottom span:after {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .harvx-producer-content p {
+        text-align: justify;
+        max-width: 90%;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        font-weight: 600;
+        font-size: 16px;
+    }
+    .producer-slider {
+        margin-top: 60px;
+    }
+    .producer-slider li .img-fluid {
+        width: auto;
+    }
+    .harvx-common-slider .owl-nav {
+        display: flex;
+        max-width: 175px;
+        margin: 0 auto;
+        justify-content: space-between;
+        font-size: 40px;
+        color: #007b21;
+        margin-top: 50px !important;
+    }
+    .harvx-common-slider .owl-nav button {
+        width: 40px;
+        height: 40px;
+        display: inline-block !important;
+        border: 2px solid !important;
+        line-height: 40px;
+        border-radius: 15px !important;
+    }
+    .harvx-common-slider .owl-nav button span {
+        margin-top: -5px;
+        display: block;
+    }
+    .harvx-drivers {
+        padding: 50px 0;
+        position: relative;
+    }
+    .harvx-drivers h2.title{
+        text-align: center!important;
+    }
+    .harvx-drivers h4 {
+        text-align: center!important;
+        max-width: 90%;
+        margin: 0  auto;
+        margin-bottom: 30px;
+    }
+    .harvx-drivers h2.title.bottom span:after {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .harvx-drivers p{
+        max-width: 90%;
+        margin: 0  auto;
+        margin-bottom: 30px;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .drivers-slider.harvx-common-slider .owl-nav{
+        color: #223191;
+    }
+    .harvx-facility{
+        background-color: #f9f9f9;
+        padding: 50px 0;
+        margin-top: -80px;
+        padding-top: 150px;
+    }
+    .harvx-facility h2.title{
+        text-align: center !important;
+    }
+    .harvx-facility h2.title.bottom span:after{
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .harvx-facility h4{
+        max-width: 90%;
+        margin:0 auto;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .harvx-facility p{
+        max-width: 90%;
+        margin:0 auto;
+        text-align: center;
+        font-weight: 600;
+        margin-bottom: 30px;
+        text-align: justify;
+    }
+
+
+    .harvx-product-details.product-details-2 {
+        margin-top: 200px;
+        background-color: #ffffff;
+        padding-bottom: 0;
+    }
+    .harvx-product-details.product-details-2 .product-details-inner{
+        background-color: #ffffff;
+
+    }
+    
+    .harvx-product-details.product-details-2 .product-list .product-details-box{
+        padding:0 40px;
+    }
+
+    .product-details-2.harvx-product-details .title-image-wrapper+.title{
+        font-weight: normal !important;
+        font-size: 14px;    padding: 0 10%;
+    }
+    .product-details.harvx-product-details .title-image-wrapper{
+        margin-top: 0;
+    }
+    .facility-slider.harvx-common-slider .owl-nav{
+        color: #8400d9;
+    }
+    .harvx-product-details.product-details-2 .title-image-wrapper+.title{
+        margin-top: 0;
+
+    }
+    .harvx-product-details.product-details-2 .title-image-wrapper{
+        padding-bottom: 0;
+        margin-bottom: 15px;
+        top:0;
+    }
+
+    .harvx-product-details.product-details-2  .product-list{
+        margin-top: 0;
+    }
+  
+    
 }
 
 @media(min-width:768px) {
@@ -1059,4 +1270,25 @@
         margin: 0 auto;
         margin-bottom: 20px;
     }
+    /* sylosis page========================== */
+    .about-sylosis-content .title-img {
+        max-width: 60%;
+    }
+    .sylosis-process {
+        margin-top: -125px;
+    }
+    .sylosis-process .container {
+        padding: 75px 0 100px;
+    }
+    .about-sylosis-content p {
+        max-width: 90%;
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .sylosis-process .process-box p {
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    
 }

@@ -114,6 +114,14 @@ h2.title.red span:after {
     background: #ef5021;
 }
 
+h2.title.white span:after {
+    background: #ffffff;
+}
+
+h2.title.black span:after {
+    background: #494949;
+}
+
 
 /* h2.title span:after {
     background: #3DA935;
@@ -2154,4 +2162,180 @@ footer .social-media ul li:hover img {
 
 .product-details-2 .title-image-wrapper+.title span:after {
     content: none;
+}
+
+
+/* sylosis page =========================== */
+
+.banner-sylosis {
+    background-image: url(../images/sylosis/sylosis-banner.png) !important;
+}
+
+.banner-sylosis .title-image {
+    max-width: 250px;
+    margin-bottom: 20px;
+}
+
+.about-sylosis {
+    padding-top: 75px;
+}
+
+.about-sylosis-content .title-img {
+    max-width: 300px;
+    margin-bottom: 30px;
+    padding-right: 10%;
+}
+
+.about-sylosis-content p {
+    max-width: 480px
+}
+
+.about-sylosis .display-img {
+    margin-bottom: -40px;
+}
+
+.sylosis-process {
+    padding: 125px 0;
+    background-color: #f6f6f6;
+}
+
+.sylosis-process .process-box {
+    text-align: center;
+    padding: 20px 40px;
+    position: relative;
+}
+
+.sylosis-process .process-box:after {
+    content: "";
+    position: absolute;
+    top: 20%;
+    right: -5%;
+    height: 40px;
+    width: 40px;
+    background: url(../images/sylosis/arrow-flow.png) no-repeat;
+}
+
+.sylosis-process .row .col-md-4:last-child .process-box:after {
+    content: none;
+}
+
+.sylosis-process .process-box img {
+    margin-bottom: 20px;
+}
+
+.sylosis-process .process-box h4 {
+    margin-bottom: 50px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+
+.product-details-2 .title-image-wrapper.title-image-wrapper-2:after {
+    content: none;
+}
+
+
+/* harvx page========================= */
+
+.banner-harvx {
+    background-image: url(../images/harvx/banner-harvx.png) !important;
+}
+.banner-harvx .title-image{
+    max-width: 250px;
+    margin-bottom: 20px;
+}
+.banner-harvx+.banner-floating-img {
+    text-align: right;
+    padding-right: 20%;
+    margin-top: -25%;
+    position: relative;
+    z-index: 99;
+}
+
+.banner-harvx+.banner-floating-img img {
+    max-width: 35%;
+}
+
+.about-sylosis.about-harvx {
+    padding-top: 20px;
+}
+
+.about-sylosis.about-harvx .display-img {
+    margin-bottom: 0;
+}
+
+.sylosis-process.harxv-process {
+    background-color: #ffffff;
+    padding: 75px 0;
+}
+
+.sylosis-process.harxv-process .process-box:after {
+    content: none;
+}
+
+.sylosis-process.harxv-process .process-box h4 {
+    margin-bottom: 15px;
+}
+
+.harvx-producer {
+    background: #ececec;
+    padding: 75px 0;
+}
+
+.harvx-producer-content {
+    padding-top: 75px;
+}
+
+.harvx-producer-content h4 {
+    margin-bottom: 30px;
+}
+
+.harvx-producer-content p {
+    margin-bottom: 30px;
+}
+
+.harvx-producer .img-display {
+    max-width: 90%;
+}
+
+.harvx-drivers {
+    background: #3f58f1;
+    padding: 75px 0;
+}
+
+.harvx-drivers h4,
+.harvx-drivers p {
+    margin-bottom: 30px;
+}
+
+.harvx-drivers .harvx-drivers-content {
+    margin: 0 auto;
+}
+
+.harvx-drivers .display-img {
+    margin-left: -7%;
+    margin-right: -3%;
+}
+
+.harvx-facility {
+    padding: 75px 0;
+}
+
+.harvx-facility h4,
+.harvx-facility p {
+    margin-bottom: 30px;
+}
+
+.product-details.harvx-product-details {
+    background-color: #f4f4f4;
+    margin-top: 0;
+}
+.product-details.harvx-product-details .shape-1{
+    background-color: #ffffff;
+}
+.product-details.harvx-product-details .title-image-wrapper{
+    margin-top: -275px;
+}
+
+.product-details.harvx-product-details:after {
+    background-color: #fdfdfd;
 }
