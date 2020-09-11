@@ -207,7 +207,8 @@ h2.title+p {
     background-color: #ffffff;
     border-color: #ffffff;
 }
-.btn-primary:focus{
+
+.btn-primary:focus {
     box-shadow: none;
     outline: none;
 }
@@ -216,7 +217,7 @@ h2.title+p {
 .btn-primary:not(:disabled):not(.disabled):active,
 .show>.btn-primary.dropdown-toggle {
     color: #fff;
-    background-color:#3DA935;
+    background-color: #3DA935;
     border-color: #3DA935;
 }
 
@@ -295,7 +296,8 @@ header .header-inner .logo {
     max-width: 150px;
     display: inline-block;
 }
-header .header-inner .logo a{
+
+header .header-inner .logo a {
     display: block;
 }
 
@@ -2373,4 +2375,69 @@ footer .social-media ul li:hover img {
 
 .product-details.harvx-product-details:after {
     background-color: #fdfdfd;
+}
+
+
+/* team page================================= */
+.banner-team{
+    background-image: url(../images/team/banner-team.png) !important;
+}
+.team-intro{
+    padding: 75px 0;
+}
+.team-intro p{
+    font-weight: 600;
+    line-height: 2;
+    max-width: 85%;
+    text-align: justify;
+}
+.team-member-main{
+    background:#f6f6f6;
+}
+.team-member-list{
+    padding: 50px 0;
+}
+.team-member{
+text-align: center;
+}
+.team-member .team-member-name{
+    font-weight: 700;
+    letter-spacing: 1.2px;
+    margin-top: 15px;
+}
+.team-member-post{
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    position: relative;
+}
+.team-member-post:after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 3px;
+    width: 70%;
+    background:#77b82a;
+}
+.team-member .btn{
+    padding: 5px 25px;
+    background: #77b82a;
+    border-color: #77b82a;
+    border-radius: 25px;
+}
+.team-member .btn:hover{
+    background: #77b82a;
+    border-color: #77b82a;
+    color: #ffffff;
+}
+.about-grainchain-inc.about-grainchain-inc-team{
+    margin-top: -100px;
+}
+.about-grainchain-inc.about-grainchain-inc-team .btn{
+    margin-top: 75px;
+    margin-bottom: 50px;
 }

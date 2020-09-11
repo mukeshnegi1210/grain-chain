@@ -1122,6 +1122,22 @@
     .harvx-product-details.product-details-2 .product-list {
         margin-top: 0;
     }
+        /* team member==================== */
+        .team-member-main {
+            padding: 50px 0;
+        }
+        .team-member-list {
+            padding: 0;
+        }
+        .team-member {
+            padding: 50px 0;
+        }
+        .about-grainchain-inc.about-grainchain-inc-team {
+            margin-top: 0;
+        }
+        .about-grainchain-inc.about-grainchain-inc-team+.home-contact-2 {
+            margin-top: -80px;
+        }
 }
 
 @media(min-width:768px) {
@@ -1288,4 +1304,5 @@
     .how-does-it-works .work-process-list .owl-nav {
         display: none;
     }
+
 }
