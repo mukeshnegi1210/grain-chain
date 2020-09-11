@@ -295,6 +295,9 @@ header .header-inner .logo {
     max-width: 150px;
     display: inline-block;
 }
+header .header-inner .logo a{
+    display: block;
+}
 
 header .menu-toggle {
     display: none;
