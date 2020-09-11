@@ -17,7 +17,7 @@ $(function () {
                 items: 2,
                 center: true,
                 autoplay: true,
-                autoplayTimeout: 1500,
+                autoplayTimeout: 3500,
                 nav: false
             },
             767: {
@@ -38,7 +38,7 @@ $(function () {
         dots: true,
         items: 1,
         autoplay: true,
-        autoplayTimeout: 2500,
+        autoplayTimeout: 3500,
 
         responsive: {
             400: {
@@ -66,8 +66,15 @@ $(function () {
         autoWidth: true,
         responsive: {
             0: {
+                items: 1,
+                nav: true,
+                autoWidth: false
+
+            },
+            479: {
                 items: 2,
-                nav: true
+                nav: true,
+                autoWidth: false
             },
             767: {
                 items: 4,
@@ -100,14 +107,14 @@ $(function () {
         }
     });
 
-    $('.banner-item-list').owlCarousel({
-        loop: true,
-        margin: 10,
-        responsiveClass: true,
-        dots: false,
-        nav: true,
-        items: 1
-    });
+    // $('.banner-item-list').owlCarousel({
+    //     loop: true,
+    //     margin: 10,
+    //     responsiveClass: true,
+    //     dots: false,
+    //     nav: true,
+    //     items: 1
+    // });
     $('.problem-list').owlCarousel({
         loop: true,
         center: true,
@@ -152,8 +159,8 @@ $(function () {
         loop: true,
         dots: false,
         nav: true,
-        margin:20,
-        autoplay:2500,
+        margin: 20,
+        autoplay: 2500,
         responsiveClass: true,
         items: 4,
         responsive: {
@@ -189,8 +196,8 @@ $(function () {
         $('.benefits-content').slideUp(500);
         $(this).next('.benefits-content').slideDown(500);
         $('.benefits-box').removeClass('active');
-        $(this).addClass('active');   
-   
+        $(this).addClass('active');
+
     });
 
     // media tabs
