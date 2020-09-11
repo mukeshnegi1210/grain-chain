@@ -96,9 +96,7 @@
         max-width: 125px;
     }
     header .header-inner .logo a {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
+     display: block;
     }
     header .menu-toggle {
         display: inline-block;
