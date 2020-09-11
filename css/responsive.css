@@ -96,7 +96,7 @@
         max-width: 125px;
     }
     header .header-inner .logo a {
-     display: block;
+        display: block;
     }
     header .menu-toggle {
         display: inline-block;
@@ -1039,97 +1039,89 @@
         padding: 50px 0;
         position: relative;
     }
-    .harvx-drivers h2.title{
+    .harvx-drivers h2.title {
         text-align: center!important;
     }
     .harvx-drivers h4 {
         text-align: center!important;
         max-width: 90%;
-        margin: 0  auto;
+        margin: 0 auto;
         margin-bottom: 30px;
     }
     .harvx-drivers h2.title.bottom span:after {
         left: 50%;
         transform: translateX(-50%);
     }
-    .harvx-drivers p{
+    .harvx-drivers p {
         max-width: 90%;
-        margin: 0  auto;
+        margin: 0 auto;
         margin-bottom: 30px;
         font-size: 16px;
         font-weight: 600;
     }
-    .drivers-slider.harvx-common-slider .owl-nav{
+    .drivers-slider.harvx-common-slider .owl-nav {
         color: #223191;
     }
-    .harvx-facility{
+    .harvx-facility {
         background-color: #f9f9f9;
         padding: 50px 0;
         margin-top: -80px;
         padding-top: 150px;
     }
-    .harvx-facility h2.title{
+    .harvx-facility h2.title {
         text-align: center !important;
     }
-    .harvx-facility h2.title.bottom span:after{
+    .harvx-facility h2.title.bottom span:after {
         left: 50%;
         transform: translateX(-50%);
     }
-    .harvx-facility h4{
+    .harvx-facility h4 {
         max-width: 90%;
-        margin:0 auto;
+        margin: 0 auto;
         text-align: center;
         margin-bottom: 30px;
     }
-    .harvx-facility p{
+    .harvx-facility p {
         max-width: 90%;
-        margin:0 auto;
+        margin: 0 auto;
         text-align: center;
         font-weight: 600;
         margin-bottom: 30px;
         text-align: justify;
     }
-
-
     .harvx-product-details.product-details-2 {
         margin-top: 200px;
         background-color: #ffffff;
         padding-bottom: 0;
     }
-    .harvx-product-details.product-details-2 .product-details-inner{
+    .harvx-product-details.product-details-2 .product-details-inner {
         background-color: #ffffff;
-
     }
-    
-    .harvx-product-details.product-details-2 .product-list .product-details-box{
-        padding:0 40px;
+    .harvx-product-details.product-details-2 .product-list .product-details-box {
+        padding: 0 40px;
     }
-
-    .product-details-2.harvx-product-details .title-image-wrapper+.title{
+    .product-details-2.harvx-product-details .title-image-wrapper+.title {
         font-weight: normal !important;
-        font-size: 14px;    padding: 0 10%;
+        font-size: 14px;
+        padding: 0 10%;
     }
-    .product-details.harvx-product-details .title-image-wrapper{
+    .product-details.harvx-product-details .title-image-wrapper {
         margin-top: 0;
     }
-    .facility-slider.harvx-common-slider .owl-nav{
+    .facility-slider.harvx-common-slider .owl-nav {
         color: #8400d9;
     }
-    .harvx-product-details.product-details-2 .title-image-wrapper+.title{
+    .harvx-product-details.product-details-2 .title-image-wrapper+.title {
         margin-top: 0;
-
     }
-    .harvx-product-details.product-details-2 .title-image-wrapper{
+    .harvx-product-details.product-details-2 .title-image-wrapper {
         padding-bottom: 0;
         margin-bottom: 15px;
-        top:0;
+        top: 0;
     }
-
-    .harvx-product-details.product-details-2  .product-list{
+    .harvx-product-details.product-details-2 .product-list {
         margin-top: 0;
     }
-  
-    
 }
 
 @media(min-width:768px) {
@@ -1189,6 +1181,9 @@
     }
     .solutions-inner .solution-box {
         max-width: 86%;
+    }
+    .problem .problem-box img {
+        margin-bottom: 50px;
     }
     .benefits-box {
         padding: 10px;
@@ -1290,8 +1285,7 @@
         font-size: 14px;
         font-weight: 600;
     }
-
-    .how-does-it-works .work-process-list .owl-nav{
+    .how-does-it-works .work-process-list .owl-nav {
         display: none;
     }
 }
