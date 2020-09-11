@@ -207,6 +207,24 @@ h2.title+p {
     background-color: #ffffff;
     border-color: #ffffff;
 }
+.btn-primary:focus{
+    box-shadow: none;
+    outline: none;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color:#3DA935;
+    border-color: #3DA935;
+}
+
+.btn-view-more {
+    margin: 0 auto;
+    display: block;
+    margin-top: 30px;
+}
 
 .bg-white {
     background-color: #ffffff !important;
@@ -699,8 +717,10 @@ header .menu-toggle {
     transform: translateY(-50%);
     font-size: 70px;
 }
-.how-does-it-works .owl-dots .owl-dot.active span, .how-does-it-works .owl-dots .owl-dot:hover span{
-background: #3ca935 !important;
+
+.how-does-it-works .owl-dots .owl-dot.active span,
+.how-does-it-works .owl-dots .owl-dot:hover span {
+    background: #3ca935 !important;
 }
 
 .our-partners {
@@ -1292,6 +1312,11 @@ footer .social-media ul li:hover img {
     padding: 40px;
     margin-bottom: 30px;
     display: none;
+    -webkit-transition: none;
+    -moz-transition: none;
+    -o-transition: none;
+    -ms-transition: none;
+    transition: none;
 }
 
 .benefits-content ul li {
@@ -2242,10 +2267,12 @@ footer .social-media ul li:hover img {
 .banner-harvx {
     background-image: url(../images/harvx/banner-harvx.png) !important;
 }
-.banner-harvx .title-image{
+
+.banner-harvx .title-image {
     max-width: 250px;
     margin-bottom: 20px;
 }
+
 .banner-harvx+.banner-floating-img {
     text-align: right;
     padding-right: 20%;
@@ -2332,10 +2359,12 @@ footer .social-media ul li:hover img {
     background-color: #f4f4f4;
     margin-top: 0;
 }
-.product-details.harvx-product-details .shape-1{
+
+.product-details.harvx-product-details .shape-1 {
     background-color: #ffffff;
 }
-.product-details.harvx-product-details .title-image-wrapper{
+
+.product-details.harvx-product-details .title-image-wrapper {
     margin-top: -275px;
 }
 
