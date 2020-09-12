@@ -1122,22 +1122,22 @@
     .harvx-product-details.product-details-2 .product-list {
         margin-top: 0;
     }
-        /* team member==================== */
-        .team-member-main {
-            padding: 50px 0;
-        }
-        .team-member-list {
-            padding: 0;
-        }
-        .team-member {
-            padding: 50px 0;
-        }
-        .about-grainchain-inc.about-grainchain-inc-team {
-            margin-top: 0;
-        }
-        .about-grainchain-inc.about-grainchain-inc-team+.home-contact-2 {
-            margin-top: -80px;
-        }
+    /* team member==================== */
+    .team-member-main {
+        padding: 50px 0;
+    }
+    .team-member-list {
+        padding: 0;
+    }
+    .team-member {
+        padding: 50px 0;
+    }
+    .about-grainchain-inc.about-grainchain-inc-team {
+        margin-top: 0;
+    }
+    .about-grainchain-inc.about-grainchain-inc-team+.home-contact-2 {
+        margin-top: -80px;
+    }
 }
 
 @media(min-width:768px) {
@@ -1151,16 +1151,21 @@
 
 @media(max-width:479px) {
     .banner-content h1 {
-        font-size: 30px;
+        font-size: 28px;
     }
     .banner {
-        max-height: 400px;
+        max-height: 340px;
+        min-height: 340px;
     }
     .banner-item {
         max-width: 100%;
     }
     .banner-content p {
         max-width: 100%;
+    }
+    .banner-content .btn {
+        font-size: 14px;
+        padding: 5px 10px;
     }
     .banner-item img {
         margin-top: 40px;
@@ -1304,5 +1309,8 @@
     .how-does-it-works .work-process-list .owl-nav {
         display: none;
     }
-
+    /* new banner============================== */
+    .banner-producer {
+        background-image: url(../images/producer/producer-banner-mobile.png) !important;
+    }
 }
