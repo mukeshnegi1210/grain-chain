@@ -1,6 +1,15 @@
 $(function () {
     // contact form button 
 
+    $("#app-img-list").EasySlides({
+        // 'autoplay': true, 
+        'loop': true,
+      'stepbystep': true, 
+      'timeout': 3000,
+        'show': 3,
+        'touchevents': true
+    });
+
     $('#banner-enquiry').click(function () {
         $("html, body").animate({
             scrollTop: $("#bottom-contact").offset().top
@@ -144,13 +153,13 @@ $(function () {
         autoHeight: true
 
     });
-    $('.app-img-list').owlCarousel({
-        loop: true,
-        center: true,
-        dots: true,
-        nav: false,
-        items: 1
-    });
+    // $('.app-img-list').owlCarousel({
+    //     loop: true,
+    //     center: true,
+    //     dots: true,
+    //     nav: false,
+    //     items: 1
+    // });
 
 
     // harvex slider============
@@ -210,6 +219,12 @@ $(function () {
         $('.media-tabs-content').removeClass('active')
         $(get_tab_id).addClass('active');
     });
+
+
+    // flipster
+
+
+
     // wow initiate
     new WOW().init();
 });
