@@ -18,7 +18,9 @@
     <!-- owl carousal -->
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
-
+    <!-- flipster -->
+    <!-- <link rel="stylesheet" href="css/jquery.flipster.min.css"> -->
+    <link rel="stylesheet" href="css/jquery.easy_slides.css">
     <!-- animates css -->
     <link rel="stylesheet" href="css/animate.css">
     <!-- custom style -->
@@ -118,23 +120,27 @@
                 </div>
                 <div class="col-md-7">
                     <h2
-                            class="title orange bottom text-left font-weight-bold desktop-hide wow animate__animated animate__fadeInUp">
-                            <span>Mobile App Features</span></h2>
-                    <ul class="app-img-list owl-carousel owl-theme">
-                        <li><img class="img-fluid" src="images/trumodity/mobile-img.png" alt="">
+                        class="title orange bottom text-left font-weight-bold desktop-hide wow animate__animated animate__fadeInUp">
+                        <span>Mobile App Features</span></h2>
+                    <div class="app-img-list slider slider_circle_10" id="app-img-list">
+                        <div><img class="img-fluid" src="images/harvx/hx-facility-mob-1.png" alt="">
                             <p class="desktop-hide mt-2 text-center">Blockchain-enabled platform with enhanced security,
                                 reliability, transparency and data privacy</p>
-                        </li>
-                        <li><img class="img-fluid" src="images/trumodity/mobile-img.png" alt="">
-                            <p  class="desktop-hide mt-2 text-center">Fast domestic and international settlements
+                        </div>
+                        <div><img class="img-fluid" src="images/harvx/hx-facility-mob-2.png" alt="">
+                            <p class="desktop-hide mt-2 text-center">Fast domestic and international settlements
                                 using GrainPay, including instant title transfers</p>
-                        </li>
-                      
-                        <li><img class="img-fluid" src="images/trumodity/mobile-img.png" alt="">
-                            <p  class="desktop-hide mt-2 text-center">Easily negotiate complex purchase agreements with
+                        </div>
+
+                        <div><img class="img-fluid" src="images/harvx/hx-facility-mob-3.png" alt="">
+                            <p class="desktop-hide mt-2 text-center">Easily negotiate complex purchase agreements with
                                 multiple parties using smart contracts</p>
-                        </li>
-                    </ul>
+                        </div>
+            
+                            <div class="next_button"></div>
+                            <div class="prev_button"></div>
+                   
+                    </div>
                 </div>
             </div>
         </div>
@@ -144,11 +150,11 @@
 
     <img class="w-100 img-fluid mobile-hide" src="images/trumodity/bg-shape-1.png" alt="">
     <!-- product-details -->
-<div class="img-wrapper-shape bg-white">
-    <img class="w-100 img-fluid desktop-hide" src="images/buyers/gray-shape-3.png" alt="">
-</div>
+    <div class="img-wrapper-shape bg-white">
+        <img class="w-100 img-fluid desktop-hide" src="images/buyers/gray-shape-3.png" alt="">
+    </div>
     <div class="product-details product-details-2">
- 
+
 
         <div class="title-image-wrapper">
             <img src="images/buyers/trumodity-icon.png" alt="">
@@ -332,7 +338,8 @@
 
             <!-- copyright -->
             <div class="copyright">
-                <p>@2020 Copyright, GrainChain - <a href="#">Privacy Policy</a> - <a href="#">Terms of Service</a> - <a href="#">Dwolla Terms of Service</a></p>
+                <p>@2020 Copyright, GrainChain - <a href="#">Privacy Policy</a> - <a href="#">Terms of Service</a> - <a
+                        href="#">Dwolla Terms of Service</a></p>
             </div>
             <!-- copyright -->
         </div>
@@ -355,8 +362,14 @@
 
     <!-- wow js -->
     <script src="js/wow.min.js"></script>
+
+    <!-- flipster js -->
+    <script src="js/jquery.flipster.min.js"></script>
+    <script src="js/jquery.easy_slides.js"></script>
+
     <!-- custom js -->
     <script src="js/main.js"></script>
+
 </body>
 
 </html>
