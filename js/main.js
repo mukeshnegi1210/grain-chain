@@ -1,15 +1,6 @@
 $(function () {
     // contact form button 
 
-    $("#app-img-list").EasySlides({
-        // 'autoplay': true, 
-        'loop': true,
-      'stepbystep': true, 
-      'timeout': 3000,
-        'show': 3,
-        'touchevents': true
-    });
-
     $('#banner-enquiry').click(function () {
         $("html, body").animate({
             scrollTop: $("#bottom-contact").offset().top
@@ -116,14 +107,18 @@ $(function () {
         }
     });
 
-    // $('.banner-item-list').owlCarousel({
-    //     loop: true,
-    //     margin: 10,
-    //     responsiveClass: true,
-    //     dots: false,
-    //     nav: true,
-    //     items: 1
-    // });
+    // seed audit slider
+    $('.seed-features-slider .seed-features').owlCarousel({
+        loop: true,
+        responsiveClass: true,
+        dots: false,
+        nav: true,
+        items: 1
+    });
+
+
+
+
     $('.problem-list').owlCarousel({
         loop: true,
         center: true,
@@ -151,15 +146,23 @@ $(function () {
         nav: true,
         items: 1,
         autoHeight: true
-
     });
-    // $('.app-img-list').owlCarousel({
-    //     loop: true,
-    //     center: true,
-    //     dots: true,
-    //     nav: false,
-    //     items: 1
-    // });
+
+    // seed audit slider
+    var seedOwl = $('.seed-features').owlCarousel({
+        dots: true,
+        loop: true,
+        responsiveClass: true,
+        nav: false,
+        items: 1
+    });
+
+    seedOwl.on('translated.owl.carousel', function () {
+        var activeBg = $('.seed-features .active li').attr('class');
+        $('.slide-bg').removeClass('active');
+        $('#' + activeBg).addClass('active');
+
+    })
 
 
     // harvex slider============
@@ -185,6 +188,8 @@ $(function () {
 
 
 
+
+
     // menu mobile
     $('.menu-open').click(function () {
         $('.primary-menu').addClass('active');
@@ -200,13 +205,10 @@ $(function () {
     // products / benefits accordions
 
     $('div.benefits-box').click(function () {
-        // $('.benefits-content').fadeOut(500);
-        // $(this).next('.benefits-content').fadeIn(500);
         $('.benefits-content').slideUp(500);
         $(this).next('.benefits-content').slideDown(500);
         $('.benefits-box').removeClass('active');
         $(this).addClass('active');
-
     });
 
     // media tabs
@@ -221,10 +223,16 @@ $(function () {
     });
 
 
-    // flipster
-
-
-
     // wow initiate
     new WOW().init();
+
+    // trumodity slider
+    $("#app-img-list").EasySlides({
+        'autoplay': true,
+        'loop': true,
+        'stepbystep': true,
+        'timeout': 3000,
+        'show': 3,
+        'touchevents': true
+    });
 });
