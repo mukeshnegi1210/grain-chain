@@ -25,7 +25,6 @@
     .slider_circle_10 .active {
         margin-left: -20%
     }
-    
 }
 
 @media(max-width:991px) {
@@ -44,6 +43,20 @@
     }
     .date-publisher p {
         font-size: 14px !important;
+    }
+    .seed-audit-features {
+        padding-bottom: 0;
+    }
+    .seed-features-slider {
+        height: 640px;
+        margin: 0 auto;
+    }
+    .seed-features-slider .seed-features img {
+        max-width: 40%;
+        left: 0;
+    }
+    .slide-bg {
+        top: 35%;
     }
 }
 
@@ -1147,23 +1160,20 @@
     .about-grainchain-inc.about-grainchain-inc-team+.home-contact-2 {
         margin-top: -80px;
     }
-     /* trumodity page================== */
-     .mobile-app-features .title span:after{
-         transform: translateX(-50%) !important;
-     }
-     .slider_circle_10 .prev1,
-     .slider_circle_10 .next1 {
-         width: 35%;
-     }
-     .slider_circle_10 .active {
+    /* trumodity page================== */
+    .mobile-app-features .title span:after {
+        transform: translateX(-50%) !important;
+    }
+    .slider_circle_10 .prev1,
+    .slider_circle_10 .next1 {
+        width: 35%;
+    }
+    .slider_circle_10 .active {
         margin-left: 0;
         width: 50%;
         transform: translateX(-50%);
-     }
-   
-    
-
-     .slider_circle_10 .next1 {
+    }
+    .slider_circle_10 .next1 {
         margin-left: 0;
         left: auto;
         right: 15%;
@@ -1175,25 +1185,83 @@
     .app-img-list {
         height: 550px;
     }
-    .app-img-list .active{
+    .app-img-list .active {
         overflow: visible;
     }
-     .app-img-list p{
-         display: none;
-         font-size: 14px;
-         position: absolute;
-         width: 200%;
-         left: 50%;
-         transform:translateX(-50%);
-         padding: 0 15%;
-         padding-top: 20px;
-     }
-     .app-img-list .active p{
-         display: block;
-     }
-     .app-img-list .next_button, .app-img-list .prev_button{
-         bottom: 0;
-     }
+    .app-img-list p {
+        display: none;
+        font-size: 14px;
+        position: absolute;
+        width: 200%;
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 0 15%;
+        padding-top: 20px;
+    }
+    .app-img-list .active p {
+        display: block;
+    }
+    .app-img-list .next_button,
+    .app-img-list .prev_button {
+        bottom: 0;
+    }
+    /* seed audit page ================= */
+    .seed-audit-features {
+        background: none;
+    }
+    .seed-audit-features .container {
+        max-width: 90%;
+        box-shadow: 0 0 5px rgba(0, 0, 0, .3);
+        padding: 50px 10px;
+    }
+    .seed-audit-features .container .title {
+        margin-bottom: 50px;
+        text-align: center !important;
+    }
+    .seed-audit-features .container .title span:after {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .seed-features-slider .seed-features img {
+        max-width: 40%;
+        left: 0;
+    }
+    .seed-features-slider {
+        height: auto;
+    }
+    .slide-bg {
+        top: 35%
+    }
+    .seed-audit-features {
+        padding-bottom: 150px;
+    }
+    .what-is-seed-audit {
+        padding-top: 0;
+    }
+    .seed-audit-content .section-title {
+        max-width: 60%;
+        margin: 0 auto;
+        display: block;
+        margin-bottom: 30px;
+    }
+    .seed-audit-content p {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+    .seed-product-details .title-image-wrapper {
+        margin-bottom: 20px;
+    }
+    .product-details-2.seed-product-details .title-image-wrapper+.title {
+        font-size: 14px;
+        font-weight: normal !important;
+        max-width: 90%;
+        margin: 0 auto;
+        margin-top: -160px;
+        line-height: 22px;
+    }
+    .product-details-2.seed-product-details .product-list {
+        margin-top: 0;
+    }
 }
 
 @media(min-width:768px) {
@@ -1369,13 +1437,16 @@
     .banner-producer {
         background-image: url(../images/producer/producer-banner-mobile.png) !important;
     }
-
     /* trumodity=================== */
     .app-img-list {
         height: calc(100vw * 1.1);
     }
-    .app-img-list p{
+    .app-img-list p {
         font-size: 13px;
     }
-
+    .seed-features-slider .owl-nav button {
+        height: 30px;
+        width: 30px;
+        font-size: 25px !important;
+    }
 }
