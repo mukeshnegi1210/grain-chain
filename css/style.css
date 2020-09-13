@@ -2108,13 +2108,17 @@ footer .social-media ul li:hover img {
 }
 
 .mobile-app-features {
-    padding: 75px 0;
+    padding: 75px 0 200px;
     background-color: #f6f6f6;
 }
 
 .mobile-app-features .img-fluid {
     width: auto !important;
     margin: 0 auto;
+}
+
+.app-img-list {
+    height: 425px
 }
 
 .app-img-list .owl-dots .owl-dot span {
@@ -2126,8 +2130,66 @@ footer .social-media ul li:hover img {
 .owl-theme .owl-dots .owl-dot:hover span {
     background: #f5b70f;
     border-color: #f5b70f;
-    ;
 }
+
+.app-img-list>div {
+    border: none !important;
+}
+
+.app-img-list .next_button,
+.app-img-list .prev_button {
+    position: absolute;
+    top: auto !important;
+    margin: 0;
+    border: 2px solid #f5b70f !important;
+    width: 40px !important;
+    height: 40px !important;
+    background: transparent !important;
+    color: #ffffff;
+    opacity: 0.8 !important;
+    z-index: 5000 !important;
+    cursor: pointer;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #f5b70f ;
+    bottom: -75px;
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    font-size: 30px;
+}
+
+.next_button:after,
+.prev_button:after {
+    position: static;
+    border: 0 !important;
+    margin: 0!important;
+}
+
+.next_button:after {
+    content: "\f105";
+}
+
+.prev_button:after {
+    content: "\f104";
+}
+
+.prev_button {
+   left: calc(50%) !important;
+   transform: translate(-50%);
+}
+
+.next_button {
+left: calc(50% + 60px) !important;
+transform: translate(-50%);
+}
+
+
 
 .mobile-app-features .mobile-app-content {
     padding-left: 30px;
@@ -2379,33 +2441,41 @@ footer .social-media ul li:hover img {
 
 
 /* team page================================= */
-.banner-team{
+
+.banner-team {
     background-image: url(../images/team/banner-team.png) !important;
 }
-.team-intro{
+
+.team-intro {
     padding: 75px 0;
 }
-.team-intro p{
+
+.team-intro p {
     font-weight: 600;
     line-height: 2;
     max-width: 85%;
     text-align: justify;
 }
-.team-member-main{
-    background:#f6f6f6;
+
+.team-member-main {
+    background: #f6f6f6;
 }
-.team-member-list{
+
+.team-member-list {
     padding: 50px 0;
 }
-.team-member{
-text-align: center;
+
+.team-member {
+    text-align: center;
 }
-.team-member .team-member-name{
+
+.team-member .team-member-name {
     font-weight: 700;
     letter-spacing: 1.2px;
     margin-top: 15px;
 }
-.team-member-post{
+
+.team-member-post {
     text-transform: uppercase;
     font-size: 12px;
     font-weight: bold;
@@ -2413,7 +2483,8 @@ text-align: center;
     margin-bottom: 15px;
     position: relative;
 }
-.team-member-post:after{
+
+.team-member-post:after {
     content: "";
     position: absolute;
     bottom: 0;
@@ -2421,23 +2492,69 @@ text-align: center;
     transform: translateX(-50%);
     height: 3px;
     width: 70%;
-    background:#77b82a;
+    background: #77b82a;
 }
-.team-member .btn{
+
+.team-member .btn {
     padding: 5px 25px;
     background: #77b82a;
     border-color: #77b82a;
     border-radius: 25px;
 }
-.team-member .btn:hover{
+
+.team-member .btn:hover {
     background: #77b82a;
     border-color: #77b82a;
     color: #ffffff;
 }
-.about-grainchain-inc.about-grainchain-inc-team{
+
+.about-grainchain-inc.about-grainchain-inc-team {
     margin-top: -100px;
 }
-.about-grainchain-inc.about-grainchain-inc-team .btn{
+
+.about-grainchain-inc.about-grainchain-inc-team .btn {
     margin-top: 75px;
     margin-bottom: 50px;
+}
+
+
+/* seed audit page============================== */
+
+.banner-seed-audit {
+    background-image: url(../images/seed-audit/seed-audit-banner.png) !important;
+}
+
+.banner-seed-audit .banner-content .title-image {
+    max-width: 250px;
+    margin-bottom: 20px;
+}
+
+.what-is-seed-audit {
+    padding-top: 50px;
+}
+
+.seed-audit-features {
+    padding: 100px 0;
+    background: #f6f6f6;
+}
+
+.seed-audit-content {
+    padding-top: 75px;
+}
+
+.seed-audit-content .section-title {
+    max-width: 300px;
+    margin-bottom: 30px;
+}
+
+.seed-audit-content p {
+    max-width: 80%;
+}
+
+.seed-product-details {
+    margin-top: 0 !important;
+}
+
+.seed-product-details .title-image-wrapper::after {
+    content: none;
 }
