@@ -1490,19 +1490,19 @@
     }
     .banner-2 {
         background-size: cover;
-        background-position: right;
+        background-position: right bottom;
     }
     .banner-blockchain, .banner-seed-audit {
-        background-position: center;
+        background-position: center bottom;
     }
     .banner-buyers {
         background-image: url(../images/buyers/buyers-banner-mob.png) !important;
-        background-position: center;
+        background-position: center bottom;
     }
     .banner-products {
-        background-position: center;
         background-image: url(../images/products/products-banner-mobile.png) !important;
         padding-top: 80px;
+        background-position: center bottom;
     }
     .banner-products .container-inner {
         max-width: 100%;
@@ -1513,14 +1513,15 @@
     }
     .banner-solution{
         background-image: url(../images/solutions/mob-solution-banner-2.png) !important;
-        background-position: center;
+        background-position: center bottom;
+
     }
     .banner-sylosis{
-            background-position: left;
+            background-position: left bottom;
     }
     .banner-trumodity{
         background-image: url(../images/trumodity/trumodity-banner-mob.png) !important;
-        background-position: center;
+        background-position: center bottom;
 
     }
 }
