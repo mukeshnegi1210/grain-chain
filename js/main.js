@@ -147,6 +147,15 @@ $(function () {
         items: 1,
         autoHeight: true
     });
+    
+      // mobile features txt slider
+      $('.mobile-app-features-text-slider').owlCarousel({
+        loop: true,
+        dots: true,
+        nav:false,
+        autoplay: 3500,
+        items: 1
+    });
 
     // seed audit slider
     var seedOwl = $('.seed-features').owlCarousel({
@@ -185,6 +194,7 @@ $(function () {
         }
     });
 
+  
 
 
 
@@ -223,6 +233,13 @@ $(function () {
     });
 
 
+    // memeber bio===========
+
+    $('.btn-bio').click(function () {
+        $('.bio-details').hide();
+        $(this).next('.bio-details').show();
+    });
+
     // wow initiate
     new WOW().init();
 
@@ -231,7 +248,7 @@ $(function () {
         'autoplay': true,
         'loop': true,
         'stepbystep': true,
-        'timeout': 3000,
+        'timeout': 4000,
         'show': 3,
         'touchevents': true
     });
