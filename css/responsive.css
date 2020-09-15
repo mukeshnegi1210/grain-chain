@@ -58,6 +58,13 @@
     .slide-bg {
         top: 35%;
     }
+    /* team member ============= */
+    .team-member {
+        padding: 20px 0;
+    }
+    .team-member .bio-details {
+        font-size: 14px;
+    }
 }
 
 
@@ -202,7 +209,7 @@
     .what-we-do-content .btn-play {
         position: absolute;
         top: auto;
-        bottom: -37px;
+        bottom: -28px;
         left: calc(50% - 29px);
         -webkit-transform: translateX(-50%);
         -ms-transform: translateX(-50%);
@@ -1231,10 +1238,14 @@
     .seed-audit-features {
         background: none;
     }
+    .seed-features{
+        max-width: 50%;
+    }
     .seed-audit-features .container {
         max-width: 90%;
         box-shadow: 0 0 5px rgba(0, 0, 0, .3);
-        padding: 50px 10px;
+        padding: 25px 15px;
+        border-radius: 15px;
     }
     .seed-audit-features .container .title {
         margin-bottom: 50px;
@@ -1244,15 +1255,26 @@
         left: 50%;
         transform: translateX(-50%);
     }
+
+    .seed-features-slider{
+        height: 70vw;
+    }
+       
+    .seed-features-slider .seed-features li {
+        text-align: left;
+    }
     .seed-features-slider .seed-features img {
-        max-width: 40%;
+        max-width: 90%;
         left: 0;
+        margin: 0;
     }
-    .seed-features-slider {
-        height: auto;
-    }
+   
     .slide-bg {
-        top: 35%
+        top: 0;
+        left: auto;
+        right: 0;
+        height:calc(100% - 7vh);
+        transform: none;
     }
     .seed-audit-features {
         padding-bottom: 150px;
@@ -1266,6 +1288,7 @@
         display: block;
         margin-bottom: 30px;
     }
+  
     .seed-audit-content p {
         max-width: 90%;
         margin: 0 auto;
@@ -1286,6 +1309,13 @@
     }
     .product-details-2.seed-product-details .product-list {
         margin-top: 0;
+    }
+    .seed-features-slider .owl-nav {
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        width: 200%;
+        max-width: none;
     }
 }
 
@@ -1492,7 +1522,8 @@
         background-size: cover;
         background-position: right bottom;
     }
-    .banner-blockchain, .banner-seed-audit {
+    .banner-blockchain,
+    .banner-seed-audit {
         background-position: center bottom;
     }
     .banner-buyers {
@@ -1511,17 +1542,15 @@
     .banner-floating {
         top: -5vh;
     }
-    .banner-solution{
+    .banner-solution {
         background-image: url(../images/solutions/mob-solution-banner-2.png) !important;
         background-position: center bottom;
-
     }
-    .banner-sylosis{
-            background-position: left bottom;
+    .banner-sylosis {
+        background-position: left bottom;
     }
-    .banner-trumodity{
+    .banner-trumodity {
         background-image: url(../images/trumodity/trumodity-banner-mob.png) !important;
         background-position: center bottom;
-
     }
 }

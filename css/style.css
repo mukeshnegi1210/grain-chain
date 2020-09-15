@@ -438,7 +438,7 @@ header .menu-toggle {
     background: transparent;
     position: absolute;
     top: calc(50% - 28px);
-    left: -38px;
+    left: -28px;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
@@ -2465,6 +2465,20 @@ footer .social-media ul li:hover img {
 
 .team-member {
     text-align: center;
+    position: relative;
+}
+.team-member .bio-details{
+    background-color: #ffffff;
+    box-shadow:0 0 5px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    font-size: 12px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    display: none;
 }
 
 .team-member .team-member-name {
