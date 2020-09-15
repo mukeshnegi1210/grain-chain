@@ -1238,7 +1238,7 @@
     .seed-audit-features {
         background: none;
     }
-    .seed-features{
+    .seed-features {
         max-width: 50%;
     }
     .seed-audit-features .container {
@@ -1255,11 +1255,9 @@
         left: 50%;
         transform: translateX(-50%);
     }
-
-    .seed-features-slider{
+    .seed-features-slider {
         height: 70vw;
     }
-       
     .seed-features-slider .seed-features li {
         text-align: left;
     }
@@ -1268,12 +1266,11 @@
         left: 0;
         margin: 0;
     }
-   
     .slide-bg {
         top: 0;
         left: auto;
         right: 0;
-        height:calc(100% - 7vh);
+        height: calc(100% - 7vh);
         transform: none;
     }
     .seed-audit-features {
@@ -1288,7 +1285,6 @@
         display: block;
         margin-bottom: 30px;
     }
-  
     .seed-audit-content p {
         max-width: 90%;
         margin: 0 auto;
@@ -1552,5 +1548,14 @@
     .banner-trumodity {
         background-image: url(../images/trumodity/trumodity-banner-mob.png) !important;
         background-position: center bottom;
+    }
+    .banner-sylosis .title-image {
+        max-width: 190px;
+    }
+    .banner-sylosis+.banner-floating-img {
+        padding-right: 10%;
+    }
+    .banner-sylosis+.banner-floating-img img {
+        max-width: 45%;
     }
 }

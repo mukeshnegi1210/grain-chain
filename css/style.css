@@ -2337,7 +2337,7 @@ footer .social-media ul li:hover img {
     max-width: 250px;
     margin-bottom: 20px;
 }
-
+.banner-sylosis +.banner-floating-img,
 .banner-harvx+.banner-floating-img {
     text-align: right;
     padding-right: 20%;
@@ -2345,7 +2345,7 @@ footer .social-media ul li:hover img {
     position: relative;
     z-index: 99;
 }
-
+.banner-sylosis +.banner-floating-img img, 
 .banner-harvx+.banner-floating-img img {
     max-width: 35%;
 }
