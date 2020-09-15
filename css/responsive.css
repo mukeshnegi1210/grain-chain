@@ -1559,3 +1559,9 @@
         max-width: 45%;
     }
 }
+@media(min-width:1300px){
+    .openings-list .opening-box{
+        max-width: 60%;
+        margin: 0 auto;
+    }
+}
