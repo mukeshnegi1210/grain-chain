@@ -1558,9 +1558,14 @@
     .banner-sylosis+.banner-floating-img img {
         max-width: 45%;
     }
+    .home-banner {
+        min-height: 400px;
+        max-height: 500px;
+    }
 }
-@media(min-width:1300px){
-    .openings-list .opening-box{
+
+@media(min-width:1300px) {
+    .openings-list .opening-box {
         max-width: 60%;
         margin: 0 auto;
     }

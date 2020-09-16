@@ -1123,6 +1123,8 @@ footer .social-media ul li:hover img {
 
 .banner-solution {
     background-image: url(../images/solutions/solution-banner.png) !important;
+    background-size: cover;
+    background-position:center bottom;
 }
 
 .banner-content p {
@@ -1639,6 +1641,8 @@ footer .social-media ul li:hover img {
 
 .banner-storage {
     background-image: url(../images/storage/storage-banner.png) !important;
+    background-size: cover;
+    background-position:center bottom;
 }
 
 .buyers-challenges.storage-buyers-challenges .buyers-challenges-inner .left-inner {
@@ -2479,6 +2483,11 @@ footer .social-media ul li:hover img {
     height: 100%;
     border-radius: 10px;
     display: none;
+}
+.team-member .bio-details.active{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .team-member .team-member-name {
