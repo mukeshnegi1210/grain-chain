@@ -1043,8 +1043,8 @@ footer .social-media ul li:hover img {
 .banner-2 {
     height: 650px;
     position: relative;
-    /* max-height: 100vh !important; */
-    background-size: 100% 100%;
+    background-size: cover;
+    background-position: center bottom;
     z-index: 9;
 }
 
@@ -1124,7 +1124,7 @@ footer .social-media ul li:hover img {
 .banner-solution {
     background-image: url(../images/solutions/solution-banner.png) !important;
     background-size: cover;
-    background-position:center bottom;
+    background-position: center bottom;
 }
 
 .banner-content p {
@@ -1642,7 +1642,7 @@ footer .social-media ul li:hover img {
 .banner-storage {
     background-image: url(../images/storage/storage-banner.png) !important;
     background-size: cover;
-    background-position:center bottom;
+    background-position: center bottom;
 }
 
 .buyers-challenges.storage-buyers-challenges .buyers-challenges-inner .left-inner {
@@ -2341,7 +2341,8 @@ footer .social-media ul li:hover img {
     max-width: 250px;
     margin-bottom: 20px;
 }
-.banner-sylosis +.banner-floating-img,
+
+.banner-sylosis+.banner-floating-img,
 .banner-harvx+.banner-floating-img {
     text-align: right;
     padding-right: 20%;
@@ -2349,7 +2350,8 @@ footer .social-media ul li:hover img {
     position: relative;
     z-index: 99;
 }
-.banner-sylosis +.banner-floating-img img, 
+
+.banner-sylosis+.banner-floating-img img,
 .banner-harvx+.banner-floating-img img {
     max-width: 35%;
 }
@@ -2471,9 +2473,10 @@ footer .social-media ul li:hover img {
     text-align: center;
     position: relative;
 }
-.team-member .bio-details{
+
+.team-member .bio-details {
     background-color: #ffffff;
-    box-shadow:0 0 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
     padding: 10px;
     font-size: 12px;
     position: absolute;
@@ -2484,7 +2487,8 @@ footer .social-media ul li:hover img {
     border-radius: 10px;
     display: none;
 }
-.team-member .bio-details.active{
+
+.team-member .bio-details.active {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -2552,7 +2556,6 @@ footer .social-media ul li:hover img {
 
 .what-is-seed-audit {
     padding-top: 50px;
-    
 }
 
 .seed-audit-features {
@@ -2629,14 +2632,14 @@ footer .social-media ul li:hover img {
     display: block;
 }
 
-.seed-features-slider .owl-nav{
+.seed-features-slider .owl-nav {
     max-width: 125px;
-    margin: 0  auto;
-    display:flex;
+    margin: 0 auto;
+    display: flex;
     justify-content: space-between;
 }
 
-.seed-features-slider .owl-nav button{
+.seed-features-slider .owl-nav button {
     font-size: 30px !important;
     border: 2px solid #a8d343 !important;
     height: 40px;
@@ -2645,9 +2648,10 @@ footer .social-media ul li:hover img {
     color: #a8d343 !important;
     font-weight: 600 !important;
 }
-.seed-features-slider .owl-nav button:focus{
-      color: #a8d343 !important;
-    font-weight: 600 !important; 
+
+.seed-features-slider .owl-nav button:focus {
+    color: #a8d343 !important;
+    font-weight: 600 !important;
 }
 
 
