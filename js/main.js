@@ -234,10 +234,16 @@ $(function () {
 
 
     // memeber bio===========
-
+ 
     $('.btn-bio').click(function () {
         $('.bio-details').removeClass('active');
         $(this).next('.bio-details').addClass('active');
+    });
+    $('body').click(function(){
+        $('.bio-details').removeClass('active');
+    });
+    $(".team-member").click(function (event) {
+        event.stopImmediatePropagation();
     });
 
     // wow initiate
