@@ -1022,7 +1022,7 @@
         padding-bottom: 0;
     }
     .sylosis-product-details.product-details-2 .title-image-wrapper img {
-        max-width: 190px;
+        max-width: 175px;
     }
     .sylosis-product-details.product-details-2 .title-image-wrapper+.title {
         font-size: 14px;
@@ -1168,7 +1168,7 @@
         top: 0;
     }
     .product-details.harvx-product-details .title-image-wrapper img {
-        max-width: 190px;
+        max-width: 175px;
     }
     .harvx-product-details.product-details-2 .product-list {
         margin-top: 0;
@@ -1234,6 +1234,22 @@
     .app-img-list .prev_button {
         bottom: 0;
     }
+    .product-details-2.trumodity-product-details .title-image-wrapper{
+        margin-bottom: 0;
+    }
+    .product-details-2.trumodity-product-details .title-image-wrapper img{
+        max-width: 175px;
+    }
+    .product-details-2.trumodity-product-details .title-image-wrapper+.title{
+        font-weight: normal !important;
+        max-width: 90%;
+        margin: 0 auto;
+        font-size: 14px;
+        margin-top: -100px;
+    }
+    .product-details-2.trumodity-product-details .product-list{
+        margin-top: 0;
+    }
     /* seed audit page ================= */
     .seed-audit-features {
         background: none;
@@ -1293,7 +1309,7 @@
         margin-bottom: 20px;
     }
     .seed-product-details .title-image-wrapper img {
-        max-width: 190px;
+        max-width: 175px;
     }
     .product-details-2.seed-product-details .title-image-wrapper+.title {
         font-size: 14px;
@@ -1313,6 +1329,7 @@
         width: 200%;
         max-width: none;
     }
+
 }
 
 @media(min-width:768px) {
@@ -1504,7 +1521,7 @@
         font-size: 25px !important;
     }
     .banner-harvx .title-image {
-        max-width: 190px;
+        max-width: 175px;
         margin-bottom: 20px;
     }
     .harvx-producer-content p,
@@ -1550,7 +1567,7 @@
         background-position: center bottom;
     }
     .banner-sylosis .title-image {
-        max-width: 190px;
+        max-width: 175px;
     }
     .banner-sylosis+.banner-floating-img {
         padding-right: 10%;
@@ -1561,6 +1578,9 @@
     .home-banner {
         min-height: 400px;
         max-height: 500px;
+    }
+    .harvx-drivers + .img-fluid{
+    margin-top:-10px;
     }
 }
 
