@@ -236,8 +236,8 @@ $(function () {
     // memeber bio===========
 
     $('.btn-bio').click(function () {
-        $('.bio-details').hide();
-        $(this).next('.bio-details').show();
+        $('.bio-details').removeClass('active');
+        $(this).next('.bio-details').addClass('active');
     });
 
     // wow initiate
