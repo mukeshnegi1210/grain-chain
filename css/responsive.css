@@ -1234,20 +1234,20 @@
     .app-img-list .prev_button {
         bottom: 0;
     }
-    .product-details-2.trumodity-product-details .title-image-wrapper{
+    .product-details-2.trumodity-product-details .title-image-wrapper {
         margin-bottom: 0;
     }
-    .product-details-2.trumodity-product-details .title-image-wrapper img{
+    .product-details-2.trumodity-product-details .title-image-wrapper img {
         max-width: 175px;
     }
-    .product-details-2.trumodity-product-details .title-image-wrapper+.title{
+    .product-details-2.trumodity-product-details .title-image-wrapper+.title {
         font-weight: normal !important;
         max-width: 90%;
         margin: 0 auto;
         font-size: 14px;
         margin-top: -100px;
     }
-    .product-details-2.trumodity-product-details .product-list{
+    .product-details-2.trumodity-product-details .product-list {
         margin-top: 0;
     }
     /* seed audit page ================= */
@@ -1329,7 +1329,6 @@
         width: 200%;
         max-width: none;
     }
-
 }
 
 @media(min-width:768px) {
@@ -1579,8 +1578,8 @@
         min-height: 400px;
         max-height: 500px;
     }
-    .harvx-drivers + .img-fluid{
-    margin-top:-10px;
+    .harvx-drivers+.img-fluid {
+        margin-top: -10px;
     }
 }
 
@@ -1588,5 +1587,50 @@
     .openings-list .opening-box {
         max-width: 60%;
         margin: 0 auto;
+    }
+}
+
+@media(min-width:1400px) {
+    .banner-2 {
+        min-height: 700px;
+    }
+    .banner-blockchain {
+        background-image: url(../images/big-banners/blockchain-banner-big.png) !important;
+    }
+    .banner-buyers {
+        background-image: url(../images/big-banners/buyers-banner-big.png) !important;
+    }
+    .banner-career {
+        background-image: url(../images/big-banners/careers-banner-big.png) !important;
+    }
+    .banner-harvx {
+        background-image: url(../images/big-banners/harvx-banner-big.png) !important;
+    }
+    .banner-media {
+        background-image: url(../images/big-banners/media-banner-big.png) !important;
+    }
+    .banner-producer {
+        background-image: url(../images/big-banners/producer-banner-big.png) !important;
+    }
+    .banner-products {
+        background-image: url(../images/big-banners/products-banner-big.png) !important;
+    }
+    .banner-seed-audit {
+        background-image: url(../images/big-banners/seed-audit-banner-big.png) !important;
+    }
+    .banner-sylosis {
+        background-image: url(../images/big-banners/silosys-banner-big.png) !important;
+    }
+    .banner-solution {
+        background-image: url(../images/big-banners/solutions-banner-big.png) !important;
+    }
+    .banner-storage {
+        background-image: url(../images/big-banners/storage-banner-big.png) !important;
+    }
+    .banner-team {
+        background-image: url(../images/big-banners/team-banner-big.png) !important;
+    }
+    .banner-trumodity {
+        background-image: url(../images/big-banners/trumodity-banner-big.png) !important;
     }
 }
