@@ -2533,8 +2533,18 @@ footer .social-media ul li:hover img {
     color: #ffffff;
 }
 
+.board-of-directors{
+    background-color: #ffffff;
+    padding: 75px 0;
+}
+.board-of-directors .team-member{
+padding: 20px 0;
+}
 .about-grainchain-inc.about-grainchain-inc-team {
-    margin-top: -100px;
+    /* margin-top: -100px; */
+    background-color: #f6f6f6;
+    position: relative;
+    z-index: 9;
 }
 
 .about-grainchain-inc.about-grainchain-inc-team .btn {
